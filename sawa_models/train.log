@@ -1,0 +1,1009 @@
+2020-04-23 22:05:01,554 Hello! This is Joey-NMT.
+2020-04-23 22:05:01,559 Total params: 12135168
+2020-04-23 22:05:01,560 Trainable parameters: ['decoder.layer_norm.bias', 'decoder.layer_norm.weight', 'decoder.layers.0.dec_layer_norm.bias', 'decoder.layers.0.dec_layer_norm.weight', 'decoder.layers.0.feed_forward.layer_norm.bias', 'decoder.layers.0.feed_forward.layer_norm.weight', 'decoder.layers.0.feed_forward.pwff_layer.0.bias', 'decoder.layers.0.feed_forward.pwff_layer.0.weight', 'decoder.layers.0.feed_forward.pwff_layer.3.bias', 'decoder.layers.0.feed_forward.pwff_layer.3.weight', 'decoder.layers.0.src_trg_att.k_layer.bias', 'decoder.layers.0.src_trg_att.k_layer.weight', 'decoder.layers.0.src_trg_att.output_layer.bias', 'decoder.layers.0.src_trg_att.output_layer.weight', 'decoder.layers.0.src_trg_att.q_layer.bias', 'decoder.layers.0.src_trg_att.q_layer.weight', 'decoder.layers.0.src_trg_att.v_layer.bias', 'decoder.layers.0.src_trg_att.v_layer.weight', 'decoder.layers.0.trg_trg_att.k_layer.bias', 'decoder.layers.0.trg_trg_att.k_layer.weight', 'decoder.layers.0.trg_trg_att.output_layer.bias', 'decoder.layers.0.trg_trg_att.output_layer.weight', 'decoder.layers.0.trg_trg_att.q_layer.bias', 'decoder.layers.0.trg_trg_att.q_layer.weight', 'decoder.layers.0.trg_trg_att.v_layer.bias', 'decoder.layers.0.trg_trg_att.v_layer.weight', 'decoder.layers.0.x_layer_norm.bias', 'decoder.layers.0.x_layer_norm.weight', 'decoder.layers.1.dec_layer_norm.bias', 'decoder.layers.1.dec_layer_norm.weight', 'decoder.layers.1.feed_forward.layer_norm.bias', 'decoder.layers.1.feed_forward.layer_norm.weight', 'decoder.layers.1.feed_forward.pwff_layer.0.bias', 'decoder.layers.1.feed_forward.pwff_layer.0.weight', 'decoder.layers.1.feed_forward.pwff_layer.3.bias', 'decoder.layers.1.feed_forward.pwff_layer.3.weight', 'decoder.layers.1.src_trg_att.k_layer.bias', 'decoder.layers.1.src_trg_att.k_layer.weight', 'decoder.layers.1.src_trg_att.output_layer.bias', 'decoder.layers.1.src_trg_att.output_layer.weight', 'decoder.layers.1.src_trg_att.q_layer.bias', 'decoder.layers.1.src_trg_att.q_layer.weight', 'decoder.layers.1.src_trg_att.v_layer.bias', 'decoder.layers.1.src_trg_att.v_layer.weight', 'decoder.layers.1.trg_trg_att.k_layer.bias', 'decoder.layers.1.trg_trg_att.k_layer.weight', 'decoder.layers.1.trg_trg_att.output_layer.bias', 'decoder.layers.1.trg_trg_att.output_layer.weight', 'decoder.layers.1.trg_trg_att.q_layer.bias', 'decoder.layers.1.trg_trg_att.q_layer.weight', 'decoder.layers.1.trg_trg_att.v_layer.bias', 'decoder.layers.1.trg_trg_att.v_layer.weight', 'decoder.layers.1.x_layer_norm.bias', 'decoder.layers.1.x_layer_norm.weight', 'decoder.layers.2.dec_layer_norm.bias', 'decoder.layers.2.dec_layer_norm.weight', 'decoder.layers.2.feed_forward.layer_norm.bias', 'decoder.layers.2.feed_forward.layer_norm.weight', 'decoder.layers.2.feed_forward.pwff_layer.0.bias', 'decoder.layers.2.feed_forward.pwff_layer.0.weight', 'decoder.layers.2.feed_forward.pwff_layer.3.bias', 'decoder.layers.2.feed_forward.pwff_layer.3.weight', 'decoder.layers.2.src_trg_att.k_layer.bias', 'decoder.layers.2.src_trg_att.k_layer.weight', 'decoder.layers.2.src_trg_att.output_layer.bias', 'decoder.layers.2.src_trg_att.output_layer.weight', 'decoder.layers.2.src_trg_att.q_layer.bias', 'decoder.layers.2.src_trg_att.q_layer.weight', 'decoder.layers.2.src_trg_att.v_layer.bias', 'decoder.layers.2.src_trg_att.v_layer.weight', 'decoder.layers.2.trg_trg_att.k_layer.bias', 'decoder.layers.2.trg_trg_att.k_layer.weight', 'decoder.layers.2.trg_trg_att.output_layer.bias', 'decoder.layers.2.trg_trg_att.output_layer.weight', 'decoder.layers.2.trg_trg_att.q_layer.bias', 'decoder.layers.2.trg_trg_att.q_layer.weight', 'decoder.layers.2.trg_trg_att.v_layer.bias', 'decoder.layers.2.trg_trg_att.v_layer.weight', 'decoder.layers.2.x_layer_norm.bias', 'decoder.layers.2.x_layer_norm.weight', 'decoder.layers.3.dec_layer_norm.bias', 'decoder.layers.3.dec_layer_norm.weight', 'decoder.layers.3.feed_forward.layer_norm.bias', 'decoder.layers.3.feed_forward.layer_norm.weight', 'decoder.layers.3.feed_forward.pwff_layer.0.bias', 'decoder.layers.3.feed_forward.pwff_layer.0.weight', 'decoder.layers.3.feed_forward.pwff_layer.3.bias', 'decoder.layers.3.feed_forward.pwff_layer.3.weight', 'decoder.layers.3.src_trg_att.k_layer.bias', 'decoder.layers.3.src_trg_att.k_layer.weight', 'decoder.layers.3.src_trg_att.output_layer.bias', 'decoder.layers.3.src_trg_att.output_layer.weight', 'decoder.layers.3.src_trg_att.q_layer.bias', 'decoder.layers.3.src_trg_att.q_layer.weight', 'decoder.layers.3.src_trg_att.v_layer.bias', 'decoder.layers.3.src_trg_att.v_layer.weight', 'decoder.layers.3.trg_trg_att.k_layer.bias', 'decoder.layers.3.trg_trg_att.k_layer.weight', 'decoder.layers.3.trg_trg_att.output_layer.bias', 'decoder.layers.3.trg_trg_att.output_layer.weight', 'decoder.layers.3.trg_trg_att.q_layer.bias', 'decoder.layers.3.trg_trg_att.q_layer.weight', 'decoder.layers.3.trg_trg_att.v_layer.bias', 'decoder.layers.3.trg_trg_att.v_layer.weight', 'decoder.layers.3.x_layer_norm.bias', 'decoder.layers.3.x_layer_norm.weight', 'decoder.layers.4.dec_layer_norm.bias', 'decoder.layers.4.dec_layer_norm.weight', 'decoder.layers.4.feed_forward.layer_norm.bias', 'decoder.layers.4.feed_forward.layer_norm.weight', 'decoder.layers.4.feed_forward.pwff_layer.0.bias', 'decoder.layers.4.feed_forward.pwff_layer.0.weight', 'decoder.layers.4.feed_forward.pwff_layer.3.bias', 'decoder.layers.4.feed_forward.pwff_layer.3.weight', 'decoder.layers.4.src_trg_att.k_layer.bias', 'decoder.layers.4.src_trg_att.k_layer.weight', 'decoder.layers.4.src_trg_att.output_layer.bias', 'decoder.layers.4.src_trg_att.output_layer.weight', 'decoder.layers.4.src_trg_att.q_layer.bias', 'decoder.layers.4.src_trg_att.q_layer.weight', 'decoder.layers.4.src_trg_att.v_layer.bias', 'decoder.layers.4.src_trg_att.v_layer.weight', 'decoder.layers.4.trg_trg_att.k_layer.bias', 'decoder.layers.4.trg_trg_att.k_layer.weight', 'decoder.layers.4.trg_trg_att.output_layer.bias', 'decoder.layers.4.trg_trg_att.output_layer.weight', 'decoder.layers.4.trg_trg_att.q_layer.bias', 'decoder.layers.4.trg_trg_att.q_layer.weight', 'decoder.layers.4.trg_trg_att.v_layer.bias', 'decoder.layers.4.trg_trg_att.v_layer.weight', 'decoder.layers.4.x_layer_norm.bias', 'decoder.layers.4.x_layer_norm.weight', 'decoder.layers.5.dec_layer_norm.bias', 'decoder.layers.5.dec_layer_norm.weight', 'decoder.layers.5.feed_forward.layer_norm.bias', 'decoder.layers.5.feed_forward.layer_norm.weight', 'decoder.layers.5.feed_forward.pwff_layer.0.bias', 'decoder.layers.5.feed_forward.pwff_layer.0.weight', 'decoder.layers.5.feed_forward.pwff_layer.3.bias', 'decoder.layers.5.feed_forward.pwff_layer.3.weight', 'decoder.layers.5.src_trg_att.k_layer.bias', 'decoder.layers.5.src_trg_att.k_layer.weight', 'decoder.layers.5.src_trg_att.output_layer.bias', 'decoder.layers.5.src_trg_att.output_layer.weight', 'decoder.layers.5.src_trg_att.q_layer.bias', 'decoder.layers.5.src_trg_att.q_layer.weight', 'decoder.layers.5.src_trg_att.v_layer.bias', 'decoder.layers.5.src_trg_att.v_layer.weight', 'decoder.layers.5.trg_trg_att.k_layer.bias', 'decoder.layers.5.trg_trg_att.k_layer.weight', 'decoder.layers.5.trg_trg_att.output_layer.bias', 'decoder.layers.5.trg_trg_att.output_layer.weight', 'decoder.layers.5.trg_trg_att.q_layer.bias', 'decoder.layers.5.trg_trg_att.q_layer.weight', 'decoder.layers.5.trg_trg_att.v_layer.bias', 'decoder.layers.5.trg_trg_att.v_layer.weight', 'decoder.layers.5.x_layer_norm.bias', 'decoder.layers.5.x_layer_norm.weight', 'encoder.layer_norm.bias', 'encoder.layer_norm.weight', 'encoder.layers.0.feed_forward.layer_norm.bias', 'encoder.layers.0.feed_forward.layer_norm.weight', 'encoder.layers.0.feed_forward.pwff_layer.0.bias', 'encoder.layers.0.feed_forward.pwff_layer.0.weight', 'encoder.layers.0.feed_forward.pwff_layer.3.bias', 'encoder.layers.0.feed_forward.pwff_layer.3.weight', 'encoder.layers.0.layer_norm.bias', 'encoder.layers.0.layer_norm.weight', 'encoder.layers.0.src_src_att.k_layer.bias', 'encoder.layers.0.src_src_att.k_layer.weight', 'encoder.layers.0.src_src_att.output_layer.bias', 'encoder.layers.0.src_src_att.output_layer.weight', 'encoder.layers.0.src_src_att.q_layer.bias', 'encoder.layers.0.src_src_att.q_layer.weight', 'encoder.layers.0.src_src_att.v_layer.bias', 'encoder.layers.0.src_src_att.v_layer.weight', 'encoder.layers.1.feed_forward.layer_norm.bias', 'encoder.layers.1.feed_forward.layer_norm.weight', 'encoder.layers.1.feed_forward.pwff_layer.0.bias', 'encoder.layers.1.feed_forward.pwff_layer.0.weight', 'encoder.layers.1.feed_forward.pwff_layer.3.bias', 'encoder.layers.1.feed_forward.pwff_layer.3.weight', 'encoder.layers.1.layer_norm.bias', 'encoder.layers.1.layer_norm.weight', 'encoder.layers.1.src_src_att.k_layer.bias', 'encoder.layers.1.src_src_att.k_layer.weight', 'encoder.layers.1.src_src_att.output_layer.bias', 'encoder.layers.1.src_src_att.output_layer.weight', 'encoder.layers.1.src_src_att.q_layer.bias', 'encoder.layers.1.src_src_att.q_layer.weight', 'encoder.layers.1.src_src_att.v_layer.bias', 'encoder.layers.1.src_src_att.v_layer.weight', 'encoder.layers.2.feed_forward.layer_norm.bias', 'encoder.layers.2.feed_forward.layer_norm.weight', 'encoder.layers.2.feed_forward.pwff_layer.0.bias', 'encoder.layers.2.feed_forward.pwff_layer.0.weight', 'encoder.layers.2.feed_forward.pwff_layer.3.bias', 'encoder.layers.2.feed_forward.pwff_layer.3.weight', 'encoder.layers.2.layer_norm.bias', 'encoder.layers.2.layer_norm.weight', 'encoder.layers.2.src_src_att.k_layer.bias', 'encoder.layers.2.src_src_att.k_layer.weight', 'encoder.layers.2.src_src_att.output_layer.bias', 'encoder.layers.2.src_src_att.output_layer.weight', 'encoder.layers.2.src_src_att.q_layer.bias', 'encoder.layers.2.src_src_att.q_layer.weight', 'encoder.layers.2.src_src_att.v_layer.bias', 'encoder.layers.2.src_src_att.v_layer.weight', 'encoder.layers.3.feed_forward.layer_norm.bias', 'encoder.layers.3.feed_forward.layer_norm.weight', 'encoder.layers.3.feed_forward.pwff_layer.0.bias', 'encoder.layers.3.feed_forward.pwff_layer.0.weight', 'encoder.layers.3.feed_forward.pwff_layer.3.bias', 'encoder.layers.3.feed_forward.pwff_layer.3.weight', 'encoder.layers.3.layer_norm.bias', 'encoder.layers.3.layer_norm.weight', 'encoder.layers.3.src_src_att.k_layer.bias', 'encoder.layers.3.src_src_att.k_layer.weight', 'encoder.layers.3.src_src_att.output_layer.bias', 'encoder.layers.3.src_src_att.output_layer.weight', 'encoder.layers.3.src_src_att.q_layer.bias', 'encoder.layers.3.src_src_att.q_layer.weight', 'encoder.layers.3.src_src_att.v_layer.bias', 'encoder.layers.3.src_src_att.v_layer.weight', 'encoder.layers.4.feed_forward.layer_norm.bias', 'encoder.layers.4.feed_forward.layer_norm.weight', 'encoder.layers.4.feed_forward.pwff_layer.0.bias', 'encoder.layers.4.feed_forward.pwff_layer.0.weight', 'encoder.layers.4.feed_forward.pwff_layer.3.bias', 'encoder.layers.4.feed_forward.pwff_layer.3.weight', 'encoder.layers.4.layer_norm.bias', 'encoder.layers.4.layer_norm.weight', 'encoder.layers.4.src_src_att.k_layer.bias', 'encoder.layers.4.src_src_att.k_layer.weight', 'encoder.layers.4.src_src_att.output_layer.bias', 'encoder.layers.4.src_src_att.output_layer.weight', 'encoder.layers.4.src_src_att.q_layer.bias', 'encoder.layers.4.src_src_att.q_layer.weight', 'encoder.layers.4.src_src_att.v_layer.bias', 'encoder.layers.4.src_src_att.v_layer.weight', 'encoder.layers.5.feed_forward.layer_norm.bias', 'encoder.layers.5.feed_forward.layer_norm.weight', 'encoder.layers.5.feed_forward.pwff_layer.0.bias', 'encoder.layers.5.feed_forward.pwff_layer.0.weight', 'encoder.layers.5.feed_forward.pwff_layer.3.bias', 'encoder.layers.5.feed_forward.pwff_layer.3.weight', 'encoder.layers.5.layer_norm.bias', 'encoder.layers.5.layer_norm.weight', 'encoder.layers.5.src_src_att.k_layer.bias', 'encoder.layers.5.src_src_att.k_layer.weight', 'encoder.layers.5.src_src_att.output_layer.bias', 'encoder.layers.5.src_src_att.output_layer.weight', 'encoder.layers.5.src_src_att.q_layer.bias', 'encoder.layers.5.src_src_att.q_layer.weight', 'encoder.layers.5.src_src_att.v_layer.bias', 'encoder.layers.5.src_src_att.v_layer.weight', 'src_embed.lut.weight']
+2020-04-23 22:05:05,960 cfg.name                           : ensw_transformer
+2020-04-23 22:05:05,960 cfg.data.src                       : en
+2020-04-23 22:05:05,960 cfg.data.trg                       : sw
+2020-04-23 22:05:05,961 cfg.data.dev                       : data/ensw/dev.bpe
+2020-04-23 22:05:05,961 cfg.data.test                      : data/ensw/test.bpe
+2020-04-23 22:05:05,961 cfg.data.train                     : data/ensw/train.bpe
+2020-04-23 22:05:05,961 cfg.data.level                     : bpe
+2020-04-23 22:05:05,961 cfg.data.lowercase                 : False
+2020-04-23 22:05:05,961 cfg.data.max_sent_length           : 100
+2020-04-23 22:05:05,961 cfg.data.src_vocab                 : data/ensw/vocab.txt
+2020-04-23 22:05:05,961 cfg.data.trg_vocab                 : data/ensw/vocab.txt
+2020-04-23 22:05:05,961 cfg.testing.beam_size              : 5
+2020-04-23 22:05:05,961 cfg.testing.alpha                  : 1.0
+2020-04-23 22:05:05,961 cfg.training.random_seed           : 42
+2020-04-23 22:05:05,961 cfg.training.optimizer             : adam
+2020-04-23 22:05:05,961 cfg.training.normalization         : tokens
+2020-04-23 22:05:05,962 cfg.training.adam_betas            : [0.9, 0.999]
+2020-04-23 22:05:05,962 cfg.training.scheduling            : plateau
+2020-04-23 22:05:05,962 cfg.training.patience              : 5
+2020-04-23 22:05:05,962 cfg.training.learning_rate_factor  : 0.5
+2020-04-23 22:05:05,962 cfg.training.learning_rate_warmup  : 1000
+2020-04-23 22:05:05,962 cfg.training.decrease_factor       : 0.7
+2020-04-23 22:05:05,962 cfg.training.loss                  : crossentropy
+2020-04-23 22:05:05,962 cfg.training.learning_rate         : 0.0003
+2020-04-23 22:05:05,962 cfg.training.learning_rate_min     : 1e-08
+2020-04-23 22:05:05,962 cfg.training.weight_decay          : 0.0
+2020-04-23 22:05:05,962 cfg.training.label_smoothing       : 0.1
+2020-04-23 22:05:05,962 cfg.training.batch_size            : 4096
+2020-04-23 22:05:05,962 cfg.training.batch_type            : token
+2020-04-23 22:05:05,962 cfg.training.eval_batch_size       : 3600
+2020-04-23 22:05:05,963 cfg.training.eval_batch_type       : token
+2020-04-23 22:05:05,963 cfg.training.batch_multiplier      : 1
+2020-04-23 22:05:05,963 cfg.training.early_stopping_metric : ppl
+2020-04-23 22:05:05,963 cfg.training.epochs                : 30
+2020-04-23 22:05:05,963 cfg.training.validation_freq       : 1000
+2020-04-23 22:05:05,963 cfg.training.logging_freq          : 100
+2020-04-23 22:05:05,963 cfg.training.eval_metric           : bleu
+2020-04-23 22:05:05,963 cfg.training.model_dir             : models/ensw_transformer
+2020-04-23 22:05:05,963 cfg.training.overwrite             : False
+2020-04-23 22:05:05,963 cfg.training.shuffle               : True
+2020-04-23 22:05:05,963 cfg.training.use_cuda              : True
+2020-04-23 22:05:05,963 cfg.training.max_output_length     : 100
+2020-04-23 22:05:05,963 cfg.training.print_valid_sents     : [0, 1, 2, 3]
+2020-04-23 22:05:05,963 cfg.training.keep_last_ckpts       : 3
+2020-04-23 22:05:05,963 cfg.model.initializer              : xavier
+2020-04-23 22:05:05,963 cfg.model.bias_initializer         : zeros
+2020-04-23 22:05:05,964 cfg.model.init_gain                : 1.0
+2020-04-23 22:05:05,964 cfg.model.embed_initializer        : xavier
+2020-04-23 22:05:05,964 cfg.model.embed_init_gain          : 1.0
+2020-04-23 22:05:05,964 cfg.model.tied_embeddings          : True
+2020-04-23 22:05:05,964 cfg.model.tied_softmax             : True
+2020-04-23 22:05:05,964 cfg.model.encoder.type             : transformer
+2020-04-23 22:05:05,964 cfg.model.encoder.num_layers       : 6
+2020-04-23 22:05:05,964 cfg.model.encoder.num_heads        : 4
+2020-04-23 22:05:05,964 cfg.model.encoder.embeddings.embedding_dim : 256
+2020-04-23 22:05:05,964 cfg.model.encoder.embeddings.scale : True
+2020-04-23 22:05:05,964 cfg.model.encoder.embeddings.dropout : 0.2
+2020-04-23 22:05:05,964 cfg.model.encoder.hidden_size      : 256
+2020-04-23 22:05:05,964 cfg.model.encoder.ff_size          : 1024
+2020-04-23 22:05:05,964 cfg.model.encoder.dropout          : 0.3
+2020-04-23 22:05:05,965 cfg.model.decoder.type             : transformer
+2020-04-23 22:05:05,965 cfg.model.decoder.num_layers       : 6
+2020-04-23 22:05:05,965 cfg.model.decoder.num_heads        : 4
+2020-04-23 22:05:05,965 cfg.model.decoder.embeddings.embedding_dim : 256
+2020-04-23 22:05:05,965 cfg.model.decoder.embeddings.scale : True
+2020-04-23 22:05:05,965 cfg.model.decoder.embeddings.dropout : 0.2
+2020-04-23 22:05:05,965 cfg.model.decoder.hidden_size      : 256
+2020-04-23 22:05:05,965 cfg.model.decoder.ff_size          : 1024
+2020-04-23 22:05:05,965 cfg.model.decoder.dropout          : 0.3
+2020-04-23 22:05:05,965 Data set sizes: 
+	train 88292,
+	valid 1000,
+	test 2721
+2020-04-23 22:05:05,965 First training example:
+	[SRC] lo@@ b@@ ster
+	[TRG] ka@@ mba@@ ko@@ che
+2020-04-23 22:05:05,965 First 10 words (src): (0) <unk> (1) <pad> (2) <s> (3) </s> (4) the (5) and (6) na (7) of (8) ya (9) wa
+2020-04-23 22:05:05,966 First 10 words (trg): (0) <unk> (1) <pad> (2) <s> (3) </s> (4) the (5) and (6) na (7) of (8) ya (9) wa
+2020-04-23 22:05:05,966 Number of Src words (types): 4199
+2020-04-23 22:05:05,966 Number of Trg words (types): 4199
+2020-04-23 22:05:05,967 Model(
+	encoder=TransformerEncoder(num_layers=6, num_heads=4),
+	decoder=TransformerDecoder(num_layers=6, num_heads=4),
+	src_embed=Embeddings(embedding_dim=256, vocab_size=4199),
+	trg_embed=Embeddings(embedding_dim=256, vocab_size=4199))
+2020-04-23 22:05:05,970 EPOCH 1
+2020-04-23 22:05:20,236 Epoch   1 Step:      100 Batch Loss:     6.095017 Tokens per Sec:    16962, Lr: 0.000300
+2020-04-23 22:05:34,409 Epoch   1 Step:      200 Batch Loss:     5.884079 Tokens per Sec:    16783, Lr: 0.000300
+2020-04-23 22:05:48,750 Epoch   1 Step:      300 Batch Loss:     5.730944 Tokens per Sec:    16833, Lr: 0.000300
+2020-04-23 22:06:03,106 Epoch   1 Step:      400 Batch Loss:     5.471322 Tokens per Sec:    16284, Lr: 0.000300
+2020-04-23 22:06:17,707 Epoch   1 Step:      500 Batch Loss:     5.339774 Tokens per Sec:    16312, Lr: 0.000300
+2020-04-23 22:06:32,539 Epoch   1 Step:      600 Batch Loss:     5.230678 Tokens per Sec:    16472, Lr: 0.000300
+2020-04-23 22:06:47,216 Epoch   1 Step:      700 Batch Loss:     5.231392 Tokens per Sec:    16831, Lr: 0.000300
+2020-04-23 22:06:59,066 Epoch   1: total training loss 4324.99
+2020-04-23 22:06:59,067 EPOCH 2
+2020-04-23 22:07:01,889 Epoch   2 Step:      800 Batch Loss:     4.256592 Tokens per Sec:    15648, Lr: 0.000300
+2020-04-23 22:07:16,290 Epoch   2 Step:      900 Batch Loss:     5.139263 Tokens per Sec:    16421, Lr: 0.000300
+2020-04-23 22:07:30,744 Epoch   2 Step:     1000 Batch Loss:     4.958186 Tokens per Sec:    16418, Lr: 0.000300
+2020-04-23 22:08:13,690 Hooray! New best validation result [ppl]!
+2020-04-23 22:08:13,690 Saving new checkpoint.
+2020-04-23 22:08:13,861 Example #0
+2020-04-23 22:08:13,861 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:08:13,861 	Raw hypothesis: ['m@@', 'ko@@', 'ka']
+2020-04-23 22:08:13,861 	Source:     span
+2020-04-23 22:08:13,862 	Reference:  shibiri
+2020-04-23 22:08:13,862 	Hypothesis: mkoka
+2020-04-23 22:08:13,862 Example #1
+2020-04-23 22:08:13,862 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:08:13,862 	Raw hypothesis: ['m@@', 'ko@@', 'ka']
+2020-04-23 22:08:13,862 	Source:     administer
+2020-04-23 22:08:13,862 	Reference:  amuru
+2020-04-23 22:08:13,862 	Hypothesis: mkoka
+2020-04-23 22:08:13,862 Example #2
+2020-04-23 22:08:13,862 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:08:13,862 	Raw hypothesis: ['Na', 'Mwenyezi', 'Mungu', 'ni', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ku@@', 'ti@@', '.']
+2020-04-23 22:08:13,862 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:08:13,862 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:08:13,862 	Hypothesis: Na Mwenyezi Mungu ni kukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukukuti.
+2020-04-23 22:08:13,862 Example #3
+2020-04-23 22:08:13,862 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:08:13,863 	Raw hypothesis: ['Na', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'ni', 'ni', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'ni', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi', 'Mungu', 'ni', 'Mwenyezi']
+2020-04-23 22:08:13,863 	Source:     You do not believe but say,
+2020-04-23 22:08:13,863 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:08:13,863 	Hypothesis: Na Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni ni ni ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni ni ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi Mungu ni Mwenyezi
+2020-04-23 22:08:13,863 Validation result (greedy) at epoch   2, step     1000: bleu:   0.10, loss: 101210.0000, ppl: 124.1338, duration: 43.1187s
+2020-04-23 22:08:28,228 Epoch   2 Step:     1100 Batch Loss:     4.948530 Tokens per Sec:    16534, Lr: 0.000300
+2020-04-23 22:08:42,851 Epoch   2 Step:     1200 Batch Loss:     4.629645 Tokens per Sec:    16489, Lr: 0.000300
+2020-04-23 22:08:57,463 Epoch   2 Step:     1300 Batch Loss:     4.664552 Tokens per Sec:    16742, Lr: 0.000300
+2020-04-23 22:09:11,831 Epoch   2 Step:     1400 Batch Loss:     4.592779 Tokens per Sec:    16645, Lr: 0.000300
+2020-04-23 22:09:26,380 Epoch   2 Step:     1500 Batch Loss:     4.226472 Tokens per Sec:    16678, Lr: 0.000300
+2020-04-23 22:09:36,080 Epoch   2: total training loss 3720.06
+2020-04-23 22:09:36,080 EPOCH 3
+2020-04-23 22:09:40,988 Epoch   3 Step:     1600 Batch Loss:     4.440054 Tokens per Sec:    16163, Lr: 0.000300
+2020-04-23 22:09:55,522 Epoch   3 Step:     1700 Batch Loss:     4.414383 Tokens per Sec:    16729, Lr: 0.000300
+2020-04-23 22:10:10,107 Epoch   3 Step:     1800 Batch Loss:     4.320911 Tokens per Sec:    16680, Lr: 0.000300
+2020-04-23 22:10:24,628 Epoch   3 Step:     1900 Batch Loss:     4.349395 Tokens per Sec:    16495, Lr: 0.000300
+2020-04-23 22:10:39,082 Epoch   3 Step:     2000 Batch Loss:     4.167585 Tokens per Sec:    16680, Lr: 0.000300
+2020-04-23 22:11:20,029 Hooray! New best validation result [ppl]!
+2020-04-23 22:11:20,029 Saving new checkpoint.
+2020-04-23 22:11:20,192 Example #0
+2020-04-23 22:11:20,193 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:11:20,193 	Raw hypothesis: ['m@@', 'g@@', 'or@@', 'o']
+2020-04-23 22:11:20,193 	Source:     span
+2020-04-23 22:11:20,193 	Reference:  shibiri
+2020-04-23 22:11:20,193 	Hypothesis: mgoro
+2020-04-23 22:11:20,193 Example #1
+2020-04-23 22:11:20,193 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:11:20,193 	Raw hypothesis: ['ki@@', 'ko@@', 'ka']
+2020-04-23 22:11:20,193 	Source:     administer
+2020-04-23 22:11:20,193 	Reference:  amuru
+2020-04-23 22:11:20,193 	Hypothesis: kikoka
+2020-04-23 22:11:20,193 Example #2
+2020-04-23 22:11:20,193 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:11:20,193 	Raw hypothesis: ['Na', 'tuka@@', 'wa@@', 'amini', 'na', 'waka@@', 'wa@@', 'ongo@@', 'za', 'kwa', 'sababu', 'ya', 'wa@@', 'zu@@', 'ri.']
+2020-04-23 22:11:20,193 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:11:20,193 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:11:20,193 	Hypothesis: Na tukawaamini na wakawaongoza kwa sababu ya wazuri.
+2020-04-23 22:11:20,193 Example #3
+2020-04-23 22:11:20,193 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:11:20,193 	Raw hypothesis: ['Ha@@', 'yo', 'ni', 'ni', 'ku@@', 'sema:']
+2020-04-23 22:11:20,193 	Source:     You do not believe but say,
+2020-04-23 22:11:20,193 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:11:20,194 	Hypothesis: Hayo ni ni kusema:
+2020-04-23 22:11:20,194 Validation result (greedy) at epoch   3, step     2000: bleu:   0.46, loss: 86998.1484, ppl:  63.0765, duration: 41.1115s
+2020-04-23 22:11:34,674 Epoch   3 Step:     2100 Batch Loss:     4.013601 Tokens per Sec:    16410, Lr: 0.000300
+2020-04-23 22:11:49,286 Epoch   3 Step:     2200 Batch Loss:     4.119627 Tokens per Sec:    16579, Lr: 0.000300
+2020-04-23 22:12:03,954 Epoch   3 Step:     2300 Batch Loss:     4.274373 Tokens per Sec:    16632, Lr: 0.000300
+2020-04-23 22:12:10,633 Epoch   3: total training loss 3326.13
+2020-04-23 22:12:10,633 EPOCH 4
+2020-04-23 22:12:18,477 Epoch   4 Step:     2400 Batch Loss:     3.914624 Tokens per Sec:    15904, Lr: 0.000300
+2020-04-23 22:12:33,046 Epoch   4 Step:     2500 Batch Loss:     3.979854 Tokens per Sec:    16764, Lr: 0.000300
+2020-04-23 22:12:47,571 Epoch   4 Step:     2600 Batch Loss:     3.959794 Tokens per Sec:    16676, Lr: 0.000300
+2020-04-23 22:13:01,954 Epoch   4 Step:     2700 Batch Loss:     3.983327 Tokens per Sec:    16273, Lr: 0.000300
+2020-04-23 22:13:16,481 Epoch   4 Step:     2800 Batch Loss:     3.836418 Tokens per Sec:    16853, Lr: 0.000300
+2020-04-23 22:13:31,057 Epoch   4 Step:     2900 Batch Loss:     3.819096 Tokens per Sec:    16485, Lr: 0.000300
+2020-04-23 22:13:45,820 Epoch   4 Step:     3000 Batch Loss:     3.722033 Tokens per Sec:    16505, Lr: 0.000300
+2020-04-23 22:14:25,875 Hooray! New best validation result [ppl]!
+2020-04-23 22:14:25,876 Saving new checkpoint.
+2020-04-23 22:14:26,039 Example #0
+2020-04-23 22:14:26,039 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:14:26,039 	Raw hypothesis: ['m@@', 'g@@', 'on@@', 'o']
+2020-04-23 22:14:26,039 	Source:     span
+2020-04-23 22:14:26,039 	Reference:  shibiri
+2020-04-23 22:14:26,039 	Hypothesis: mgono
+2020-04-23 22:14:26,039 Example #1
+2020-04-23 22:14:26,039 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:14:26,039 	Raw hypothesis: ['m@@', 'g@@', 'or@@', 'o']
+2020-04-23 22:14:26,039 	Source:     administer
+2020-04-23 22:14:26,040 	Reference:  amuru
+2020-04-23 22:14:26,040 	Hypothesis: mgoro
+2020-04-23 22:14:26,040 Example #2
+2020-04-23 22:14:26,040 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:14:26,040 	Raw hypothesis: ['Basi', 'tuka@@', 'wa@@', 'fanya', 'watu', 'walio', 'wa@@', 'shiri@@', 'ki', 'wa@@', 'shiri@@', 'ki', 'kwa', 'sababu', 'ya', 'wa@@', 'poto@@', 'vu.']
+2020-04-23 22:14:26,040 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:14:26,040 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:14:26,040 	Hypothesis: Basi tukawafanya watu walio washiriki washiriki kwa sababu ya wapotovu.
+2020-04-23 22:14:26,040 Example #3
+2020-04-23 22:14:26,040 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:14:26,040 	Raw hypothesis: ['Lakini', 'hawa@@', 'ku@@', 'amini', 'Mwenyezi', 'Mungu', 'ila', 'ha@@', 'yo.']
+2020-04-23 22:14:26,040 	Source:     You do not believe but say,
+2020-04-23 22:14:26,040 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:14:26,040 	Hypothesis: Lakini hawakuamini Mwenyezi Mungu ila hayo.
+2020-04-23 22:14:26,040 Validation result (greedy) at epoch   4, step     3000: bleu:   0.99, loss: 76560.2578, ppl:  38.3639, duration: 40.2200s
+2020-04-23 22:14:40,619 Epoch   4 Step:     3100 Batch Loss:     3.812062 Tokens per Sec:    16638, Lr: 0.000300
+2020-04-23 22:14:44,528 Epoch   4: total training loss 3054.38
+2020-04-23 22:14:44,528 EPOCH 5
+2020-04-23 22:14:55,180 Epoch   5 Step:     3200 Batch Loss:     3.798851 Tokens per Sec:    16139, Lr: 0.000300
+2020-04-23 22:15:09,926 Epoch   5 Step:     3300 Batch Loss:     3.553757 Tokens per Sec:    16827, Lr: 0.000300
+2020-04-23 22:15:24,363 Epoch   5 Step:     3400 Batch Loss:     3.593013 Tokens per Sec:    16551, Lr: 0.000300
+2020-04-23 22:15:38,972 Epoch   5 Step:     3500 Batch Loss:     3.446258 Tokens per Sec:    16590, Lr: 0.000300
+2020-04-23 22:15:53,435 Epoch   5 Step:     3600 Batch Loss:     3.649515 Tokens per Sec:    16628, Lr: 0.000300
+2020-04-23 22:16:07,934 Epoch   5 Step:     3700 Batch Loss:     3.463524 Tokens per Sec:    16701, Lr: 0.000300
+2020-04-23 22:16:22,467 Epoch   5 Step:     3800 Batch Loss:     3.501094 Tokens per Sec:    16652, Lr: 0.000300
+2020-04-23 22:16:36,957 Epoch   5 Step:     3900 Batch Loss:     3.402152 Tokens per Sec:    16386, Lr: 0.000300
+2020-04-23 22:16:38,091 Epoch   5: total training loss 2830.80
+2020-04-23 22:16:38,092 EPOCH 6
+2020-04-23 22:16:51,402 Epoch   6 Step:     4000 Batch Loss:     3.679500 Tokens per Sec:    16167, Lr: 0.000300
+2020-04-23 22:17:31,817 Hooray! New best validation result [ppl]!
+2020-04-23 22:17:31,817 Saving new checkpoint.
+2020-04-23 22:17:31,997 Example #0
+2020-04-23 22:17:31,998 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:17:31,998 	Raw hypothesis: ['ki@@', 'pi@@', 'o']
+2020-04-23 22:17:31,998 	Source:     span
+2020-04-23 22:17:31,998 	Reference:  shibiri
+2020-04-23 22:17:31,998 	Hypothesis: kipio
+2020-04-23 22:17:31,998 Example #1
+2020-04-23 22:17:31,998 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:17:31,998 	Raw hypothesis: ['u@@', 'don@@', 'go']
+2020-04-23 22:17:31,998 	Source:     administer
+2020-04-23 22:17:31,998 	Reference:  amuru
+2020-04-23 22:17:31,998 	Hypothesis: udongo
+2020-04-23 22:17:31,998 Example #2
+2020-04-23 22:17:31,998 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:17:31,998 	Raw hypothesis: ['Basi', 'tuka@@', 'wa@@', 'fikia', 'T@@', 'uli@@', ',', 'waka@@', 'wa', 'ku@@', 'kaa', 'katika', 'ardhi', 'kwa', 'adhabu', 'ya', 'ku@@', 'rehe@@', 'mu.']
+2020-04-23 22:17:31,998 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:17:31,998 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:17:31,998 	Hypothesis: Basi tukawafikia Tuli, wakawa kukaa katika ardhi kwa adhabu ya kurehemu.
+2020-04-23 22:17:31,998 Example #3
+2020-04-23 22:17:31,999 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:17:31,999 	Raw hypothesis: ['Ha@@', 'tu@@', 'amini', 'ila', 'ila', 'ila', 'wa@@', 'sema@@', 'ye.']
+2020-04-23 22:17:31,999 	Source:     You do not believe but say,
+2020-04-23 22:17:31,999 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:17:31,999 	Hypothesis: Hatuamini ila ila ila wasemaye.
+2020-04-23 22:17:31,999 Validation result (greedy) at epoch   6, step     4000: bleu:   1.80, loss: 70256.2969, ppl:  28.4120, duration: 40.5968s
+2020-04-23 22:17:46,318 Epoch   6 Step:     4100 Batch Loss:     3.482018 Tokens per Sec:    16272, Lr: 0.000300
+2020-04-23 22:18:00,828 Epoch   6 Step:     4200 Batch Loss:     3.414102 Tokens per Sec:    16774, Lr: 0.000300
+2020-04-23 22:18:15,285 Epoch   6 Step:     4300 Batch Loss:     3.358453 Tokens per Sec:    16639, Lr: 0.000300
+2020-04-23 22:18:29,777 Epoch   6 Step:     4400 Batch Loss:     3.395641 Tokens per Sec:    16503, Lr: 0.000300
+2020-04-23 22:18:44,471 Epoch   6 Step:     4500 Batch Loss:     3.412284 Tokens per Sec:    16703, Lr: 0.000300
+2020-04-23 22:18:58,961 Epoch   6 Step:     4600 Batch Loss:     3.168545 Tokens per Sec:    16793, Lr: 0.000300
+2020-04-23 22:19:12,245 Epoch   6: total training loss 2680.50
+2020-04-23 22:19:12,245 EPOCH 7
+2020-04-23 22:19:13,671 Epoch   7 Step:     4700 Batch Loss:     3.382784 Tokens per Sec:    14833, Lr: 0.000300
+2020-04-23 22:19:28,009 Epoch   7 Step:     4800 Batch Loss:     3.278353 Tokens per Sec:    16406, Lr: 0.000300
+2020-04-23 22:19:42,332 Epoch   7 Step:     4900 Batch Loss:     3.272926 Tokens per Sec:    16822, Lr: 0.000300
+2020-04-23 22:19:56,834 Epoch   7 Step:     5000 Batch Loss:     3.183771 Tokens per Sec:    16734, Lr: 0.000300
+2020-04-23 22:20:34,446 Hooray! New best validation result [ppl]!
+2020-04-23 22:20:34,446 Saving new checkpoint.
+2020-04-23 22:20:34,636 Example #0
+2020-04-23 22:20:34,636 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:20:34,636 	Raw hypothesis: ['ki@@', 'ko@@', 'a']
+2020-04-23 22:20:34,636 	Source:     span
+2020-04-23 22:20:34,636 	Reference:  shibiri
+2020-04-23 22:20:34,636 	Hypothesis: kikoa
+2020-04-23 22:20:34,636 Example #1
+2020-04-23 22:20:34,636 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:20:34,636 	Raw hypothesis: ['m@@', 'ko@@', 'se@@', 'fu']
+2020-04-23 22:20:34,636 	Source:     administer
+2020-04-23 22:20:34,636 	Reference:  amuru
+2020-04-23 22:20:34,636 	Hypothesis: mkosefu
+2020-04-23 22:20:34,637 Example #2
+2020-04-23 22:20:34,637 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:20:34,637 	Raw hypothesis: ['Basi', 'kama', 'vile', 'vile', 'wali@@', 'vyo', 'wa@@', 'fikia', 'wa@@', 'k@@', 'habari', 'kwa', 'adhabu', 'ya', 'adhabu', 'ya', 'adhabu', 'ya', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:20:34,637 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:20:34,637 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:20:34,637 	Hypothesis: Basi kama vile vile walivyo wafikia wakhabari kwa adhabu ya adhabu ya adhabu ya adhabu chungu.
+2020-04-23 22:20:34,637 Example #3
+2020-04-23 22:20:34,637 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:20:34,637 	Raw hypothesis: ['Ha@@', 'tu@@', 'amini', 'ila', 'ila', 'ha@@', 'yo.']
+2020-04-23 22:20:34,637 	Source:     You do not believe but say,
+2020-04-23 22:20:34,637 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:20:34,637 	Hypothesis: Hatuamini ila ila hayo.
+2020-04-23 22:20:34,637 Validation result (greedy) at epoch   7, step     5000: bleu:   3.90, loss: 64481.6641, ppl:  21.5791, duration: 37.8025s
+2020-04-23 22:20:49,151 Epoch   7 Step:     5100 Batch Loss:     3.124520 Tokens per Sec:    16581, Lr: 0.000300
+2020-04-23 22:21:03,696 Epoch   7 Step:     5200 Batch Loss:     3.283840 Tokens per Sec:    16830, Lr: 0.000300
+2020-04-23 22:21:18,333 Epoch   7 Step:     5300 Batch Loss:     3.243718 Tokens per Sec:    16875, Lr: 0.000300
+2020-04-23 22:21:32,643 Epoch   7 Step:     5400 Batch Loss:     3.175300 Tokens per Sec:    16656, Lr: 0.000300
+2020-04-23 22:21:42,928 Epoch   7: total training loss 2532.80
+2020-04-23 22:21:42,928 EPOCH 8
+2020-04-23 22:21:47,076 Epoch   8 Step:     5500 Batch Loss:     3.202880 Tokens per Sec:    15917, Lr: 0.000300
+2020-04-23 22:22:01,559 Epoch   8 Step:     5600 Batch Loss:     3.103312 Tokens per Sec:    16904, Lr: 0.000300
+2020-04-23 22:22:16,120 Epoch   8 Step:     5700 Batch Loss:     3.126830 Tokens per Sec:    16688, Lr: 0.000300
+2020-04-23 22:22:30,450 Epoch   8 Step:     5800 Batch Loss:     2.957569 Tokens per Sec:    16565, Lr: 0.000300
+2020-04-23 22:22:44,785 Epoch   8 Step:     5900 Batch Loss:     3.011085 Tokens per Sec:    16584, Lr: 0.000300
+2020-04-23 22:22:59,156 Epoch   8 Step:     6000 Batch Loss:     3.048528 Tokens per Sec:    16655, Lr: 0.000300
+2020-04-23 22:23:35,593 Hooray! New best validation result [ppl]!
+2020-04-23 22:23:35,593 Saving new checkpoint.
+2020-04-23 22:23:35,772 Example #0
+2020-04-23 22:23:35,772 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:23:35,772 	Raw hypothesis: ['ki@@', 'pi@@', 'mo']
+2020-04-23 22:23:35,772 	Source:     span
+2020-04-23 22:23:35,772 	Reference:  shibiri
+2020-04-23 22:23:35,772 	Hypothesis: kipimo
+2020-04-23 22:23:35,772 Example #1
+2020-04-23 22:23:35,772 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:23:35,772 	Raw hypothesis: ['u@@', 'ko@@', 'zi']
+2020-04-23 22:23:35,772 	Source:     administer
+2020-04-23 22:23:35,772 	Reference:  amuru
+2020-04-23 22:23:35,772 	Hypothesis: ukozi
+2020-04-23 22:23:35,772 Example #2
+2020-04-23 22:23:35,772 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:23:35,773 	Raw hypothesis: ['Basi', 'kama', 'vile', 'vile', 'vile', 'vile', 'vile', 'vile', 'vile', 'vile', 'vi@@', 'vyo', 'hivyo', 'hivyo', 'vi@@', 'vyo', 'hivyo', 'hivyo', 'hivyo', 'vi@@', 'vyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'hivyo', 'S@@', 'ita@@', '.']
+2020-04-23 22:23:35,773 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:23:35,773 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:23:35,773 	Hypothesis: Basi kama vile vile vile vile vile vile vile vile vivyo hivyo hivyo vivyo hivyo hivyo hivyo vivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo hivyo Sita.
+2020-04-23 22:23:35,773 Example #3
+2020-04-23 22:23:35,773 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:23:35,773 	Raw hypothesis: ['Ha@@', 'wa@@', 'amini', 'ila', 'wa@@', 'sema@@', ':']
+2020-04-23 22:23:35,773 	Source:     You do not believe but say,
+2020-04-23 22:23:35,773 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:23:35,773 	Hypothesis: Hawaamini ila wasema:
+2020-04-23 22:23:35,773 Validation result (greedy) at epoch   8, step     6000: bleu:   4.57, loss: 60913.1250, ppl:  18.2056, duration: 36.6167s
+2020-04-23 22:23:50,184 Epoch   8 Step:     6100 Batch Loss:     3.164337 Tokens per Sec:    16570, Lr: 0.000300
+2020-04-23 22:24:04,598 Epoch   8 Step:     6200 Batch Loss:     2.920100 Tokens per Sec:    16637, Lr: 0.000300
+2020-04-23 22:24:12,918 Epoch   8: total training loss 2451.18
+2020-04-23 22:24:12,918 EPOCH 9
+2020-04-23 22:24:19,134 Epoch   9 Step:     6300 Batch Loss:     3.419597 Tokens per Sec:    16229, Lr: 0.000300
+2020-04-23 22:24:33,665 Epoch   9 Step:     6400 Batch Loss:     2.895144 Tokens per Sec:    16574, Lr: 0.000300
+2020-04-23 22:24:47,905 Epoch   9 Step:     6500 Batch Loss:     3.008734 Tokens per Sec:    16626, Lr: 0.000300
+2020-04-23 22:25:02,412 Epoch   9 Step:     6600 Batch Loss:     2.918678 Tokens per Sec:    16567, Lr: 0.000300
+2020-04-23 22:25:17,005 Epoch   9 Step:     6700 Batch Loss:     2.966475 Tokens per Sec:    16770, Lr: 0.000300
+2020-04-23 22:25:31,485 Epoch   9 Step:     6800 Batch Loss:     2.908371 Tokens per Sec:    16406, Lr: 0.000300
+2020-04-23 22:25:46,291 Epoch   9 Step:     6900 Batch Loss:     3.155514 Tokens per Sec:    16796, Lr: 0.000300
+2020-04-23 22:26:00,688 Epoch   9 Step:     7000 Batch Loss:     3.023613 Tokens per Sec:    16401, Lr: 0.000300
+2020-04-23 22:26:31,127 Hooray! New best validation result [ppl]!
+2020-04-23 22:26:31,127 Saving new checkpoint.
+2020-04-23 22:26:31,303 Example #0
+2020-04-23 22:26:31,303 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:26:31,303 	Raw hypothesis: ['ki@@', 'ko@@', 'o']
+2020-04-23 22:26:31,303 	Source:     span
+2020-04-23 22:26:31,303 	Reference:  shibiri
+2020-04-23 22:26:31,303 	Hypothesis: kikoo
+2020-04-23 22:26:31,303 Example #1
+2020-04-23 22:26:31,303 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:26:31,303 	Raw hypothesis: ['u@@', 'ko@@', 'zi']
+2020-04-23 22:26:31,303 	Source:     administer
+2020-04-23 22:26:31,303 	Reference:  amuru
+2020-04-23 22:26:31,303 	Hypothesis: ukozi
+2020-04-23 22:26:31,303 Example #2
+2020-04-23 22:26:31,303 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:26:31,303 	Raw hypothesis: ['Basi', 'waki@@', 'wa@@', 'angami@@', 'za', 'S@@', 'ha@@', 'i,', 'waka@@', 'angami@@', 'za', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:26:31,303 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:26:31,304 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:26:31,304 	Hypothesis: Basi wakiwaangamiza Shai, wakaangamiza adhabu chungu.
+2020-04-23 22:26:31,304 Example #3
+2020-04-23 22:26:31,304 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:26:31,304 	Raw hypothesis: ['Ha@@', 'wa@@', 'amini', 'ila', 'ye@@', 'ye.']
+2020-04-23 22:26:31,304 	Source:     You do not believe but say,
+2020-04-23 22:26:31,304 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:26:31,304 	Hypothesis: Hawaamini ila yeye.
+2020-04-23 22:26:31,304 Validation result (greedy) at epoch   9, step     7000: bleu:   5.47, loss: 58165.9688, ppl:  15.9724, duration: 30.6152s
+2020-04-23 22:26:37,170 Epoch   9: total training loss 2358.67
+2020-04-23 22:26:37,170 EPOCH 10
+2020-04-23 22:26:45,769 Epoch  10 Step:     7100 Batch Loss:     2.873031 Tokens per Sec:    16020, Lr: 0.000300
+2020-04-23 22:27:00,449 Epoch  10 Step:     7200 Batch Loss:     2.913481 Tokens per Sec:    16791, Lr: 0.000300
+2020-04-23 22:27:14,909 Epoch  10 Step:     7300 Batch Loss:     2.986084 Tokens per Sec:    16325, Lr: 0.000300
+2020-04-23 22:27:29,440 Epoch  10 Step:     7400 Batch Loss:     2.822574 Tokens per Sec:    16618, Lr: 0.000300
+2020-04-23 22:27:44,062 Epoch  10 Step:     7500 Batch Loss:     2.905132 Tokens per Sec:    16731, Lr: 0.000300
+2020-04-23 22:27:58,568 Epoch  10 Step:     7600 Batch Loss:     2.773883 Tokens per Sec:    16576, Lr: 0.000300
+2020-04-23 22:28:12,966 Epoch  10 Step:     7700 Batch Loss:     2.837100 Tokens per Sec:    16420, Lr: 0.000300
+2020-04-23 22:28:27,340 Epoch  10 Step:     7800 Batch Loss:     3.008653 Tokens per Sec:    16682, Lr: 0.000300
+2020-04-23 22:28:30,863 Epoch  10: total training loss 2296.46
+2020-04-23 22:28:30,863 EPOCH 11
+2020-04-23 22:28:42,105 Epoch  11 Step:     7900 Batch Loss:     2.959062 Tokens per Sec:    16648, Lr: 0.000300
+2020-04-23 22:28:56,769 Epoch  11 Step:     8000 Batch Loss:     2.796218 Tokens per Sec:    16696, Lr: 0.000300
+2020-04-23 22:29:24,438 Hooray! New best validation result [ppl]!
+2020-04-23 22:29:24,439 Saving new checkpoint.
+2020-04-23 22:29:24,627 Example #0
+2020-04-23 22:29:24,627 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:29:24,627 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 22:29:24,627 	Source:     span
+2020-04-23 22:29:24,627 	Reference:  shibiri
+2020-04-23 22:29:24,627 	Hypothesis: kikombe
+2020-04-23 22:29:24,627 Example #1
+2020-04-23 22:29:24,627 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:29:24,628 	Raw hypothesis: ['u@@', 'ju@@', 'zi']
+2020-04-23 22:29:24,628 	Source:     administer
+2020-04-23 22:29:24,628 	Reference:  amuru
+2020-04-23 22:29:24,628 	Hypothesis: ujuzi
+2020-04-23 22:29:24,628 Example #2
+2020-04-23 22:29:24,628 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:29:24,628 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'wa@@', 'angami@@', 'za,', 'wali@@', 'wa@@', 'angami@@', 'za', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:29:24,628 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:29:24,628 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:29:24,628 	Hypothesis: Basi walipo waangamiza, waliwaangamiza adhabu chungu.
+2020-04-23 22:29:24,628 Example #3
+2020-04-23 22:29:24,628 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:29:24,628 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 22:29:24,628 	Source:     You do not believe but say,
+2020-04-23 22:29:24,628 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:29:24,628 	Hypothesis: Hauamini ila husema:
+2020-04-23 22:29:24,628 Validation result (greedy) at epoch  11, step     8000: bleu:   6.14, loss: 56048.3984, ppl:  14.4398, duration: 27.8593s
+2020-04-23 22:29:39,144 Epoch  11 Step:     8100 Batch Loss:     3.043009 Tokens per Sec:    16602, Lr: 0.000300
+2020-04-23 22:29:53,574 Epoch  11 Step:     8200 Batch Loss:     2.711674 Tokens per Sec:    16527, Lr: 0.000300
+2020-04-23 22:30:08,143 Epoch  11 Step:     8300 Batch Loss:     2.709927 Tokens per Sec:    16569, Lr: 0.000300
+2020-04-23 22:30:22,525 Epoch  11 Step:     8400 Batch Loss:     2.767094 Tokens per Sec:    16389, Lr: 0.000300
+2020-04-23 22:30:37,069 Epoch  11 Step:     8500 Batch Loss:     2.919308 Tokens per Sec:    16432, Lr: 0.000300
+2020-04-23 22:30:51,530 Epoch  11 Step:     8600 Batch Loss:     2.700101 Tokens per Sec:    16490, Lr: 0.000300
+2020-04-23 22:30:52,433 Epoch  11: total training loss 2227.07
+2020-04-23 22:30:52,433 EPOCH 12
+2020-04-23 22:31:06,273 Epoch  12 Step:     8700 Batch Loss:     2.647313 Tokens per Sec:    16555, Lr: 0.000300
+2020-04-23 22:31:20,838 Epoch  12 Step:     8800 Batch Loss:     2.659315 Tokens per Sec:    16648, Lr: 0.000300
+2020-04-23 22:31:35,331 Epoch  12 Step:     8900 Batch Loss:     2.645703 Tokens per Sec:    16443, Lr: 0.000300
+2020-04-23 22:31:49,788 Epoch  12 Step:     9000 Batch Loss:     2.817270 Tokens per Sec:    16561, Lr: 0.000300
+2020-04-23 22:32:21,202 Hooray! New best validation result [ppl]!
+2020-04-23 22:32:21,202 Saving new checkpoint.
+2020-04-23 22:32:21,384 Example #0
+2020-04-23 22:32:21,385 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:32:21,385 	Raw hypothesis: ['ki@@', 'pa@@', 'to']
+2020-04-23 22:32:21,385 	Source:     span
+2020-04-23 22:32:21,385 	Reference:  shibiri
+2020-04-23 22:32:21,385 	Hypothesis: kipato
+2020-04-23 22:32:21,385 Example #1
+2020-04-23 22:32:21,385 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:32:21,385 	Raw hypothesis: ['u@@', 'amu@@', 'zi']
+2020-04-23 22:32:21,385 	Source:     administer
+2020-04-23 22:32:21,385 	Reference:  amuru
+2020-04-23 22:32:21,385 	Hypothesis: uamuzi
+2020-04-23 22:32:21,385 Example #2
+2020-04-23 22:32:21,385 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:32:21,385 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'wa@@', 'angami@@', 'za,', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:32:21,385 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:32:21,385 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:32:21,386 	Hypothesis: Basi walipo waangamiza, waliangamizwa kwa adhabu chungu.
+2020-04-23 22:32:21,386 Example #3
+2020-04-23 22:32:21,386 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:32:21,386 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'ye@@', 'tu.']
+2020-04-23 22:32:21,386 	Source:     You do not believe but say,
+2020-04-23 22:32:21,386 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:32:21,386 	Hypothesis: Hauamini ila yetu.
+2020-04-23 22:32:21,386 Validation result (greedy) at epoch  12, step     9000: bleu:   6.85, loss: 54146.2539, ppl:  13.1889, duration: 31.5973s
+2020-04-23 22:32:36,040 Epoch  12 Step:     9100 Batch Loss:     2.769861 Tokens per Sec:    16744, Lr: 0.000300
+2020-04-23 22:32:50,397 Epoch  12 Step:     9200 Batch Loss:     3.049111 Tokens per Sec:    16720, Lr: 0.000300
+2020-04-23 22:33:05,049 Epoch  12 Step:     9300 Batch Loss:     2.695832 Tokens per Sec:    16839, Lr: 0.000300
+2020-04-23 22:33:17,401 Epoch  12: total training loss 2165.32
+2020-04-23 22:33:17,401 EPOCH 13
+2020-04-23 22:33:19,446 Epoch  13 Step:     9400 Batch Loss:     2.506218 Tokens per Sec:    14626, Lr: 0.000300
+2020-04-23 22:33:33,987 Epoch  13 Step:     9500 Batch Loss:     2.615042 Tokens per Sec:    16629, Lr: 0.000300
+2020-04-23 22:33:48,499 Epoch  13 Step:     9600 Batch Loss:     2.595325 Tokens per Sec:    16729, Lr: 0.000300
+2020-04-23 22:34:03,047 Epoch  13 Step:     9700 Batch Loss:     2.672231 Tokens per Sec:    16895, Lr: 0.000300
+2020-04-23 22:34:17,527 Epoch  13 Step:     9800 Batch Loss:     2.657628 Tokens per Sec:    16475, Lr: 0.000300
+2020-04-23 22:34:32,020 Epoch  13 Step:     9900 Batch Loss:     2.655142 Tokens per Sec:    16678, Lr: 0.000300
+2020-04-23 22:34:46,461 Epoch  13 Step:    10000 Batch Loss:     2.797047 Tokens per Sec:    16553, Lr: 0.000300
+2020-04-23 22:35:15,475 Hooray! New best validation result [ppl]!
+2020-04-23 22:35:15,475 Saving new checkpoint.
+2020-04-23 22:35:15,653 Example #0
+2020-04-23 22:35:15,653 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:35:15,653 	Raw hypothesis: ['ki@@', 'ko@@', 'ko@@', 'o']
+2020-04-23 22:35:15,653 	Source:     span
+2020-04-23 22:35:15,653 	Reference:  shibiri
+2020-04-23 22:35:15,653 	Hypothesis: kikokoo
+2020-04-23 22:35:15,653 Example #1
+2020-04-23 22:35:15,653 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:35:15,653 	Raw hypothesis: ['u@@', 'sta@@', 'di']
+2020-04-23 22:35:15,654 	Source:     administer
+2020-04-23 22:35:15,654 	Reference:  amuru
+2020-04-23 22:35:15,654 	Hypothesis: ustadi
+2020-04-23 22:35:15,654 Example #2
+2020-04-23 22:35:15,654 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:35:15,654 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'wa@@', 'angami@@', 'za,', 'waka@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:35:15,654 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:35:15,654 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:35:15,654 	Hypothesis: Basi walipo waangamiza, wakaangamizwa kwa adhabu chungu.
+2020-04-23 22:35:15,654 Example #3
+2020-04-23 22:35:15,654 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:35:15,654 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'sema:']
+2020-04-23 22:35:15,654 	Source:     You do not believe but say,
+2020-04-23 22:35:15,654 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:35:15,654 	Hypothesis: Hauamini ila sema:
+2020-04-23 22:35:15,654 Validation result (greedy) at epoch  13, step    10000: bleu:   7.86, loss: 52337.5547, ppl:  12.1001, duration: 29.1931s
+2020-04-23 22:35:30,356 Epoch  13 Step:    10100 Batch Loss:     2.604957 Tokens per Sec:    16900, Lr: 0.000300
+2020-04-23 22:35:39,662 Epoch  13: total training loss 2110.64
+2020-04-23 22:35:39,662 EPOCH 14
+2020-04-23 22:35:44,994 Epoch  14 Step:    10200 Batch Loss:     2.499959 Tokens per Sec:    16523, Lr: 0.000300
+2020-04-23 22:35:59,517 Epoch  14 Step:    10300 Batch Loss:     2.644568 Tokens per Sec:    16784, Lr: 0.000300
+2020-04-23 22:36:14,125 Epoch  14 Step:    10400 Batch Loss:     2.579822 Tokens per Sec:    16736, Lr: 0.000300
+2020-04-23 22:36:28,594 Epoch  14 Step:    10500 Batch Loss:     2.492972 Tokens per Sec:    16636, Lr: 0.000300
+2020-04-23 22:36:43,028 Epoch  14 Step:    10600 Batch Loss:     2.408103 Tokens per Sec:    16399, Lr: 0.000300
+2020-04-23 22:36:57,374 Epoch  14 Step:    10700 Batch Loss:     2.469356 Tokens per Sec:    16601, Lr: 0.000300
+2020-04-23 22:37:11,808 Epoch  14 Step:    10800 Batch Loss:     2.548208 Tokens per Sec:    16577, Lr: 0.000300
+2020-04-23 22:37:26,079 Epoch  14 Step:    10900 Batch Loss:     3.066540 Tokens per Sec:    16396, Lr: 0.000300
+2020-04-23 22:37:33,119 Epoch  14: total training loss 2085.27
+2020-04-23 22:37:33,120 EPOCH 15
+2020-04-23 22:37:40,575 Epoch  15 Step:    11000 Batch Loss:     2.663833 Tokens per Sec:    16143, Lr: 0.000300
+2020-04-23 22:38:09,082 Hooray! New best validation result [ppl]!
+2020-04-23 22:38:09,082 Saving new checkpoint.
+2020-04-23 22:38:09,264 Example #0
+2020-04-23 22:38:09,264 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:38:09,264 	Raw hypothesis: ['ki@@', 'pi@@', 'mo']
+2020-04-23 22:38:09,264 	Source:     span
+2020-04-23 22:38:09,264 	Reference:  shibiri
+2020-04-23 22:38:09,264 	Hypothesis: kipimo
+2020-04-23 22:38:09,264 Example #1
+2020-04-23 22:38:09,265 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:38:09,265 	Raw hypothesis: ['m@@', 'sta@@', 'ri']
+2020-04-23 22:38:09,265 	Source:     administer
+2020-04-23 22:38:09,265 	Reference:  amuru
+2020-04-23 22:38:09,265 	Hypothesis: mstari
+2020-04-23 22:38:09,265 Example #2
+2020-04-23 22:38:09,265 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:38:09,265 	Raw hypothesis: ['Na', 'kama', 'S@@', 'ha@@', 'ma', 'wali@@', 'angami@@', 'zwa', 'kwa', 'ku@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'ku@@', 'dhulu@@', 'mu.']
+2020-04-23 22:38:09,265 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:38:09,265 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:38:09,265 	Hypothesis: Na kama Shama waliangamizwa kwa kuangamizwa kwa adhabu ya kudhulumu.
+2020-04-23 22:38:09,265 Example #3
+2020-04-23 22:38:09,265 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:38:09,265 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 22:38:09,265 	Source:     You do not believe but say,
+2020-04-23 22:38:09,265 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:38:09,265 	Hypothesis: Hauamini ila husema:
+2020-04-23 22:38:09,266 Validation result (greedy) at epoch  15, step    11000: bleu:   8.70, loss: 51062.7500, ppl:  11.3872, duration: 28.6901s
+2020-04-23 22:38:23,817 Epoch  15 Step:    11100 Batch Loss:     2.326766 Tokens per Sec:    16725, Lr: 0.000300
+2020-04-23 22:38:38,361 Epoch  15 Step:    11200 Batch Loss:     2.680680 Tokens per Sec:    16776, Lr: 0.000300
+2020-04-23 22:38:52,979 Epoch  15 Step:    11300 Batch Loss:     2.448949 Tokens per Sec:    16664, Lr: 0.000300
+2020-04-23 22:39:07,654 Epoch  15 Step:    11400 Batch Loss:     2.456947 Tokens per Sec:    16570, Lr: 0.000300
+2020-04-23 22:39:22,318 Epoch  15 Step:    11500 Batch Loss:     2.563407 Tokens per Sec:    16760, Lr: 0.000300
+2020-04-23 22:39:36,865 Epoch  15 Step:    11600 Batch Loss:     2.503886 Tokens per Sec:    16568, Lr: 0.000300
+2020-04-23 22:39:51,226 Epoch  15 Step:    11700 Batch Loss:     2.481181 Tokens per Sec:    16373, Lr: 0.000300
+2020-04-23 22:39:55,366 Epoch  15: total training loss 2033.76
+2020-04-23 22:39:55,367 EPOCH 16
+2020-04-23 22:40:05,796 Epoch  16 Step:    11800 Batch Loss:     2.619490 Tokens per Sec:    16495, Lr: 0.000300
+2020-04-23 22:40:20,301 Epoch  16 Step:    11900 Batch Loss:     2.571353 Tokens per Sec:    16574, Lr: 0.000300
+2020-04-23 22:40:34,880 Epoch  16 Step:    12000 Batch Loss:     2.386926 Tokens per Sec:    16710, Lr: 0.000300
+2020-04-23 22:41:00,056 Hooray! New best validation result [ppl]!
+2020-04-23 22:41:00,056 Saving new checkpoint.
+2020-04-23 22:41:00,239 Example #0
+2020-04-23 22:41:00,239 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:41:00,240 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 22:41:00,240 	Source:     span
+2020-04-23 22:41:00,240 	Reference:  shibiri
+2020-04-23 22:41:00,240 	Hypothesis: kikombe
+2020-04-23 22:41:00,240 Example #1
+2020-04-23 22:41:00,240 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:41:00,240 	Raw hypothesis: ['u@@', 'sta@@', 'di']
+2020-04-23 22:41:00,240 	Source:     administer
+2020-04-23 22:41:00,240 	Reference:  amuru
+2020-04-23 22:41:00,240 	Hypothesis: ustadi
+2020-04-23 22:41:00,240 Example #2
+2020-04-23 22:41:00,240 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:41:00,240 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'angami@@', 'zwa', 'kwa', 'Ha@@', 'ki', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:41:00,240 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:41:00,240 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:41:00,241 	Hypothesis: Basi walipo angamizwa kwa Haki waliangamizwa kwa adhabu chungu.
+2020-04-23 22:41:00,241 Example #3
+2020-04-23 22:41:00,241 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:41:00,241 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 22:41:00,241 	Source:     You do not believe but say,
+2020-04-23 22:41:00,241 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:41:00,241 	Hypothesis: Hauamini ila husema:
+2020-04-23 22:41:00,241 Validation result (greedy) at epoch  16, step    12000: bleu:  10.07, loss: 49865.0039, ppl:  10.7556, duration: 25.3605s
+2020-04-23 22:41:14,898 Epoch  16 Step:    12100 Batch Loss:     2.633744 Tokens per Sec:    16708, Lr: 0.000300
+2020-04-23 22:41:29,327 Epoch  16 Step:    12200 Batch Loss:     2.370982 Tokens per Sec:    16405, Lr: 0.000300
+2020-04-23 22:41:43,780 Epoch  16 Step:    12300 Batch Loss:     2.328024 Tokens per Sec:    16665, Lr: 0.000300
+2020-04-23 22:41:58,145 Epoch  16 Step:    12400 Batch Loss:     2.773796 Tokens per Sec:    16232, Lr: 0.000300
+2020-04-23 22:42:12,638 Epoch  16 Step:    12500 Batch Loss:     2.600609 Tokens per Sec:    16803, Lr: 0.000300
+2020-04-23 22:42:14,345 Epoch  16: total training loss 2002.75
+2020-04-23 22:42:14,345 EPOCH 17
+2020-04-23 22:42:27,208 Epoch  17 Step:    12600 Batch Loss:     2.313411 Tokens per Sec:    16492, Lr: 0.000300
+2020-04-23 22:42:41,789 Epoch  17 Step:    12700 Batch Loss:     3.022202 Tokens per Sec:    16613, Lr: 0.000300
+2020-04-23 22:42:56,303 Epoch  17 Step:    12800 Batch Loss:     2.428675 Tokens per Sec:    16834, Lr: 0.000300
+2020-04-23 22:43:10,815 Epoch  17 Step:    12900 Batch Loss:     2.422059 Tokens per Sec:    16785, Lr: 0.000300
+2020-04-23 22:43:25,078 Epoch  17 Step:    13000 Batch Loss:     2.365484 Tokens per Sec:    16433, Lr: 0.000300
+2020-04-23 22:43:55,113 Hooray! New best validation result [ppl]!
+2020-04-23 22:43:55,113 Saving new checkpoint.
+2020-04-23 22:43:55,291 Example #0
+2020-04-23 22:43:55,291 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:43:55,291 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 22:43:55,291 	Source:     span
+2020-04-23 22:43:55,292 	Reference:  shibiri
+2020-04-23 22:43:55,292 	Hypothesis: kikombe
+2020-04-23 22:43:55,292 Example #1
+2020-04-23 22:43:55,292 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:43:55,292 	Raw hypothesis: ['u@@', 'ko@@', 'zi']
+2020-04-23 22:43:55,292 	Source:     administer
+2020-04-23 22:43:55,292 	Reference:  amuru
+2020-04-23 22:43:55,292 	Hypothesis: ukozi
+2020-04-23 22:43:55,292 Example #2
+2020-04-23 22:43:55,292 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:43:55,292 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'angami@@', 'zwa', 'kwa', 'adhabu', 'iliyo', 'dha@@', 'a@@', 'hi@@', 'ri.']
+2020-04-23 22:43:55,292 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:43:55,292 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:43:55,292 	Hypothesis: Basi walipo angamizwa kwa adhabu iliyo dhaahiri.
+2020-04-23 22:43:55,292 Example #3
+2020-04-23 22:43:55,292 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:43:55,292 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 22:43:55,292 	Source:     You do not believe but say,
+2020-04-23 22:43:55,292 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:43:55,292 	Hypothesis: Hauamini ila husema:
+2020-04-23 22:43:55,292 Validation result (greedy) at epoch  17, step    13000: bleu:  10.80, loss: 48361.9648, ppl:  10.0124, duration: 30.2136s
+2020-04-23 22:44:09,905 Epoch  17 Step:    13100 Batch Loss:     2.751553 Tokens per Sec:    16716, Lr: 0.000300
+2020-04-23 22:44:24,273 Epoch  17 Step:    13200 Batch Loss:     3.006796 Tokens per Sec:    16542, Lr: 0.000300
+2020-04-23 22:44:37,703 Epoch  17: total training loss 1961.65
+2020-04-23 22:44:37,703 EPOCH 18
+2020-04-23 22:44:38,806 Epoch  18 Step:    13300 Batch Loss:     2.486589 Tokens per Sec:    13754, Lr: 0.000300
+2020-04-23 22:44:53,276 Epoch  18 Step:    13400 Batch Loss:     2.493627 Tokens per Sec:    16712, Lr: 0.000300
+2020-04-23 22:45:07,753 Epoch  18 Step:    13500 Batch Loss:     2.898747 Tokens per Sec:    16770, Lr: 0.000300
+2020-04-23 22:45:22,169 Epoch  18 Step:    13600 Batch Loss:     2.632573 Tokens per Sec:    16490, Lr: 0.000300
+2020-04-23 22:45:36,651 Epoch  18 Step:    13700 Batch Loss:     2.362310 Tokens per Sec:    16573, Lr: 0.000300
+2020-04-23 22:45:51,049 Epoch  18 Step:    13800 Batch Loss:     2.460665 Tokens per Sec:    16595, Lr: 0.000300
+2020-04-23 22:46:05,522 Epoch  18 Step:    13900 Batch Loss:     2.212844 Tokens per Sec:    16655, Lr: 0.000300
+2020-04-23 22:46:19,855 Epoch  18 Step:    14000 Batch Loss:     2.887350 Tokens per Sec:    16598, Lr: 0.000300
+2020-04-23 22:46:50,152 Hooray! New best validation result [ppl]!
+2020-04-23 22:46:50,152 Saving new checkpoint.
+2020-04-23 22:46:50,327 Example #0
+2020-04-23 22:46:50,327 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:46:50,327 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 22:46:50,327 	Source:     span
+2020-04-23 22:46:50,327 	Reference:  shibiri
+2020-04-23 22:46:50,327 	Hypothesis: kikombe
+2020-04-23 22:46:50,327 Example #1
+2020-04-23 22:46:50,327 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:46:50,327 	Raw hypothesis: ['m@@', 'sha@@', 'ha@@', 'ri']
+2020-04-23 22:46:50,327 	Source:     administer
+2020-04-23 22:46:50,327 	Reference:  amuru
+2020-04-23 22:46:50,327 	Hypothesis: mshahari
+2020-04-23 22:46:50,327 Example #2
+2020-04-23 22:46:50,327 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:46:50,328 	Raw hypothesis: ['Na', 'kama', 'S@@', 'ha@@', 'mu@@', 'di', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'iliyo', 'dha@@', 'a@@', 'hi@@', 'ri.']
+2020-04-23 22:46:50,328 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:46:50,328 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:46:50,328 	Hypothesis: Na kama Shamudi waliangamizwa kwa adhabu iliyo dhaahiri.
+2020-04-23 22:46:50,328 Example #3
+2020-04-23 22:46:50,328 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:46:50,328 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 22:46:50,328 	Source:     You do not believe but say,
+2020-04-23 22:46:50,328 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:46:50,328 	Hypothesis: Hauamini ila husema:
+2020-04-23 22:46:50,328 Validation result (greedy) at epoch  18, step    14000: bleu:  11.32, loss: 47659.8164, ppl:   9.6831, duration: 30.4726s
+2020-04-23 22:47:01,545 Epoch  18: total training loss 1940.48
+2020-04-23 22:47:01,545 EPOCH 19
+2020-04-23 22:47:04,842 Epoch  19 Step:    14100 Batch Loss:     2.331634 Tokens per Sec:    16098, Lr: 0.000300
+2020-04-23 22:47:19,378 Epoch  19 Step:    14200 Batch Loss:     2.183769 Tokens per Sec:    16742, Lr: 0.000300
+2020-04-23 22:47:33,824 Epoch  19 Step:    14300 Batch Loss:     2.381732 Tokens per Sec:    16621, Lr: 0.000300
+2020-04-23 22:47:48,338 Epoch  19 Step:    14400 Batch Loss:     2.237613 Tokens per Sec:    16518, Lr: 0.000300
+2020-04-23 22:48:02,961 Epoch  19 Step:    14500 Batch Loss:     2.685239 Tokens per Sec:    16751, Lr: 0.000300
+2020-04-23 22:48:17,477 Epoch  19 Step:    14600 Batch Loss:     2.372025 Tokens per Sec:    16668, Lr: 0.000300
+2020-04-23 22:48:31,994 Epoch  19 Step:    14700 Batch Loss:     2.346331 Tokens per Sec:    16571, Lr: 0.000300
+2020-04-23 22:48:46,346 Epoch  19 Step:    14800 Batch Loss:     2.429731 Tokens per Sec:    16338, Lr: 0.000300
+2020-04-23 22:48:55,024 Epoch  19: total training loss 1899.57
+2020-04-23 22:48:55,024 EPOCH 20
+2020-04-23 22:49:01,007 Epoch  20 Step:    14900 Batch Loss:     2.167306 Tokens per Sec:    16335, Lr: 0.000300
+2020-04-23 22:49:15,542 Epoch  20 Step:    15000 Batch Loss:     2.299754 Tokens per Sec:    16640, Lr: 0.000300
+2020-04-23 22:49:45,586 Hooray! New best validation result [ppl]!
+2020-04-23 22:49:45,586 Saving new checkpoint.
+2020-04-23 22:49:45,767 Example #0
+2020-04-23 22:49:45,767 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:49:45,767 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 22:49:45,767 	Source:     span
+2020-04-23 22:49:45,767 	Reference:  shibiri
+2020-04-23 22:49:45,767 	Hypothesis: kikombe
+2020-04-23 22:49:45,767 Example #1
+2020-04-23 22:49:45,767 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:49:45,767 	Raw hypothesis: ['u@@', 'simamizi']
+2020-04-23 22:49:45,767 	Source:     administer
+2020-04-23 22:49:45,767 	Reference:  amuru
+2020-04-23 22:49:45,767 	Hypothesis: usimamizi
+2020-04-23 22:49:45,767 Example #2
+2020-04-23 22:49:45,768 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:49:45,768 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'ku@@', 'shin@@', 'da', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:49:45,768 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:49:45,768 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:49:45,768 	Hypothesis: Basi walipo angamizwa kwa adhabu ya kushinda adhabu chungu.
+2020-04-23 22:49:45,768 Example #3
+2020-04-23 22:49:45,768 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:49:45,768 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 22:49:45,768 	Source:     You do not believe but say,
+2020-04-23 22:49:45,768 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:49:45,768 	Hypothesis: Hauamini ila husema:
+2020-04-23 22:49:45,768 Validation result (greedy) at epoch  20, step    15000: bleu:  11.75, loss: 46727.2695, ppl:   9.2623, duration: 30.2262s
+2020-04-23 22:50:00,320 Epoch  20 Step:    15100 Batch Loss:     2.390890 Tokens per Sec:    16529, Lr: 0.000300
+2020-04-23 22:50:14,904 Epoch  20 Step:    15200 Batch Loss:     2.334396 Tokens per Sec:    16701, Lr: 0.000300
+2020-04-23 22:50:29,267 Epoch  20 Step:    15300 Batch Loss:     2.410015 Tokens per Sec:    16415, Lr: 0.000300
+2020-04-23 22:50:43,495 Epoch  20 Step:    15400 Batch Loss:     2.147029 Tokens per Sec:    16267, Lr: 0.000300
+2020-04-23 22:50:57,921 Epoch  20 Step:    15500 Batch Loss:     2.312304 Tokens per Sec:    16435, Lr: 0.000300
+2020-04-23 22:51:12,357 Epoch  20 Step:    15600 Batch Loss:     2.273867 Tokens per Sec:    16825, Lr: 0.000300
+2020-04-23 22:51:19,013 Epoch  20: total training loss 1886.47
+2020-04-23 22:51:19,013 EPOCH 21
+2020-04-23 22:51:26,991 Epoch  21 Step:    15700 Batch Loss:     2.162075 Tokens per Sec:    16469, Lr: 0.000300
+2020-04-23 22:51:41,412 Epoch  21 Step:    15800 Batch Loss:     2.388552 Tokens per Sec:    16468, Lr: 0.000300
+2020-04-23 22:51:55,957 Epoch  21 Step:    15900 Batch Loss:     2.947556 Tokens per Sec:    16652, Lr: 0.000300
+2020-04-23 22:52:10,433 Epoch  21 Step:    16000 Batch Loss:     2.698986 Tokens per Sec:    16511, Lr: 0.000300
+2020-04-23 22:52:36,869 Hooray! New best validation result [ppl]!
+2020-04-23 22:52:36,869 Saving new checkpoint.
+2020-04-23 22:52:37,044 Example #0
+2020-04-23 22:52:37,044 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:52:37,044 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 22:52:37,044 	Source:     span
+2020-04-23 22:52:37,044 	Reference:  shibiri
+2020-04-23 22:52:37,044 	Hypothesis: kikombe
+2020-04-23 22:52:37,044 Example #1
+2020-04-23 22:52:37,044 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:52:37,044 	Raw hypothesis: ['m@@', 'simamizi']
+2020-04-23 22:52:37,045 	Source:     administer
+2020-04-23 22:52:37,045 	Reference:  amuru
+2020-04-23 22:52:37,045 	Hypothesis: msimamizi
+2020-04-23 22:52:37,045 Example #2
+2020-04-23 22:52:37,045 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:52:37,045 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'angami@@', 'zwa', 'kwa', 'Ha@@', 'ki', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'ku@@', 'dhulu@@', 'mi@@', 'wa.']
+2020-04-23 22:52:37,045 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:52:37,045 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:52:37,045 	Hypothesis: Basi walipo angamizwa kwa Haki waliangamizwa kwa adhabu ya kudhulumiwa.
+2020-04-23 22:52:37,045 Example #3
+2020-04-23 22:52:37,045 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:52:37,045 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'sema:']
+2020-04-23 22:52:37,045 	Source:     You do not believe but say,
+2020-04-23 22:52:37,045 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:52:37,045 	Hypothesis: Hauamini ila sema:
+2020-04-23 22:52:37,045 Validation result (greedy) at epoch  21, step    16000: bleu:  12.57, loss: 46084.9180, ppl:   8.9832, duration: 26.6115s
+2020-04-23 22:52:51,547 Epoch  21 Step:    16100 Batch Loss:     2.278329 Tokens per Sec:    16399, Lr: 0.000300
+2020-04-23 22:53:06,034 Epoch  21 Step:    16200 Batch Loss:     2.433395 Tokens per Sec:    16471, Lr: 0.000300
+2020-04-23 22:53:20,547 Epoch  21 Step:    16300 Batch Loss:     2.249481 Tokens per Sec:    16480, Lr: 0.000300
+2020-04-23 22:53:35,413 Epoch  21 Step:    16400 Batch Loss:     2.395257 Tokens per Sec:    17032, Lr: 0.000300
+2020-04-23 22:53:39,321 Epoch  21: total training loss 1845.89
+2020-04-23 22:53:39,321 EPOCH 22
+2020-04-23 22:53:50,018 Epoch  22 Step:    16500 Batch Loss:     2.179115 Tokens per Sec:    16471, Lr: 0.000300
+2020-04-23 22:54:04,464 Epoch  22 Step:    16600 Batch Loss:     2.358760 Tokens per Sec:    16594, Lr: 0.000300
+2020-04-23 22:54:18,865 Epoch  22 Step:    16700 Batch Loss:     2.081321 Tokens per Sec:    16756, Lr: 0.000300
+2020-04-23 22:54:33,311 Epoch  22 Step:    16800 Batch Loss:     2.336502 Tokens per Sec:    16370, Lr: 0.000300
+2020-04-23 22:54:47,927 Epoch  22 Step:    16900 Batch Loss:     2.325147 Tokens per Sec:    16605, Lr: 0.000300
+2020-04-23 22:55:02,594 Epoch  22 Step:    17000 Batch Loss:     2.274856 Tokens per Sec:    16808, Lr: 0.000300
+2020-04-23 22:55:29,755 Hooray! New best validation result [ppl]!
+2020-04-23 22:55:29,755 Saving new checkpoint.
+2020-04-23 22:55:29,934 Example #0
+2020-04-23 22:55:29,935 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:55:29,935 	Raw hypothesis: ['ki@@', 'pa@@', 'a']
+2020-04-23 22:55:29,935 	Source:     span
+2020-04-23 22:55:29,935 	Reference:  shibiri
+2020-04-23 22:55:29,935 	Hypothesis: kipaa
+2020-04-23 22:55:29,935 Example #1
+2020-04-23 22:55:29,935 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:55:29,935 	Raw hypothesis: ['m@@', 'simamizi']
+2020-04-23 22:55:29,935 	Source:     administer
+2020-04-23 22:55:29,935 	Reference:  amuru
+2020-04-23 22:55:29,935 	Hypothesis: msimamizi
+2020-04-23 22:55:29,935 Example #2
+2020-04-23 22:55:29,935 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:55:29,935 	Raw hypothesis: ['Na', 'kama', 'S@@', 'ha@@', 'mu@@', 'di', 'wali@@', 'vyo', 'angami@@', 'zwa', 'kwa', 'adhabu', 'iliyo', 'chun@@', 'gu.']
+2020-04-23 22:55:29,935 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:55:29,935 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:55:29,935 	Hypothesis: Na kama Shamudi walivyo angamizwa kwa adhabu iliyo chungu.
+2020-04-23 22:55:29,935 Example #3
+2020-04-23 22:55:29,935 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:55:29,935 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 22:55:29,935 	Source:     You do not believe but say,
+2020-04-23 22:55:29,935 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:55:29,936 	Hypothesis: Hauamini ila husema:
+2020-04-23 22:55:29,936 Validation result (greedy) at epoch  22, step    17000: bleu:  13.15, loss: 45074.7734, ppl:   8.5612, duration: 27.3408s
+2020-04-23 22:55:44,545 Epoch  22 Step:    17100 Batch Loss:     2.444200 Tokens per Sec:    16758, Lr: 0.000300
+2020-04-23 22:55:58,957 Epoch  22 Step:    17200 Batch Loss:     2.253491 Tokens per Sec:    16469, Lr: 0.000300
+2020-04-23 22:55:59,983 Epoch  22: total training loss 1819.47
+2020-04-23 22:55:59,983 EPOCH 23
+2020-04-23 22:56:13,593 Epoch  23 Step:    17300 Batch Loss:     2.258239 Tokens per Sec:    16579, Lr: 0.000300
+2020-04-23 22:56:28,033 Epoch  23 Step:    17400 Batch Loss:     2.408225 Tokens per Sec:    16593, Lr: 0.000300
+2020-04-23 22:56:42,601 Epoch  23 Step:    17500 Batch Loss:     2.623121 Tokens per Sec:    16896, Lr: 0.000300
+2020-04-23 22:56:57,154 Epoch  23 Step:    17600 Batch Loss:     2.200125 Tokens per Sec:    16499, Lr: 0.000300
+2020-04-23 22:57:11,725 Epoch  23 Step:    17700 Batch Loss:     2.428967 Tokens per Sec:    16544, Lr: 0.000300
+2020-04-23 22:57:26,322 Epoch  23 Step:    17800 Batch Loss:     2.217092 Tokens per Sec:    16760, Lr: 0.000300
+2020-04-23 22:57:40,707 Epoch  23 Step:    17900 Batch Loss:     2.416362 Tokens per Sec:    16311, Lr: 0.000300
+2020-04-23 22:57:53,368 Epoch  23: total training loss 1798.27
+2020-04-23 22:57:53,368 EPOCH 24
+2020-04-23 22:57:55,444 Epoch  24 Step:    18000 Batch Loss:     2.489506 Tokens per Sec:    15824, Lr: 0.000300
+2020-04-23 22:58:22,280 Hooray! New best validation result [ppl]!
+2020-04-23 22:58:22,280 Saving new checkpoint.
+2020-04-23 22:58:22,462 Example #0
+2020-04-23 22:58:22,462 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 22:58:22,462 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 22:58:22,462 	Source:     span
+2020-04-23 22:58:22,462 	Reference:  shibiri
+2020-04-23 22:58:22,462 	Hypothesis: kikombe
+2020-04-23 22:58:22,462 Example #1
+2020-04-23 22:58:22,463 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 22:58:22,463 	Raw hypothesis: ['m@@', 'hudu@@', 'mu']
+2020-04-23 22:58:22,463 	Source:     administer
+2020-04-23 22:58:22,463 	Reference:  amuru
+2020-04-23 22:58:22,463 	Hypothesis: mhudumu
+2020-04-23 22:58:22,463 Example #2
+2020-04-23 22:58:22,463 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 22:58:22,463 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'kuwa', 'waki@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'ku@@', 'shin@@', 'da', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 22:58:22,463 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 22:58:22,463 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 22:58:22,463 	Hypothesis: Basi walipo kuwa wakiangamizwa kwa adhabu ya kushinda adhabu chungu.
+2020-04-23 22:58:22,463 Example #3
+2020-04-23 22:58:22,463 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 22:58:22,463 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'sema:']
+2020-04-23 22:58:22,463 	Source:     You do not believe but say,
+2020-04-23 22:58:22,463 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 22:58:22,463 	Hypothesis: Hauamini ila sema:
+2020-04-23 22:58:22,463 Validation result (greedy) at epoch  24, step    18000: bleu:  13.54, loss: 44397.3945, ppl:   8.2893, duration: 27.0188s
+2020-04-23 22:58:37,025 Epoch  24 Step:    18100 Batch Loss:     2.314976 Tokens per Sec:    16659, Lr: 0.000300
+2020-04-23 22:58:51,684 Epoch  24 Step:    18200 Batch Loss:     2.283128 Tokens per Sec:    16860, Lr: 0.000300
+2020-04-23 22:59:06,282 Epoch  24 Step:    18300 Batch Loss:     2.152310 Tokens per Sec:    16469, Lr: 0.000300
+2020-04-23 22:59:20,756 Epoch  24 Step:    18400 Batch Loss:     2.358837 Tokens per Sec:    16534, Lr: 0.000300
+2020-04-23 22:59:35,147 Epoch  24 Step:    18500 Batch Loss:     2.207381 Tokens per Sec:    16515, Lr: 0.000300
+2020-04-23 22:59:49,636 Epoch  24 Step:    18600 Batch Loss:     2.861652 Tokens per Sec:    16590, Lr: 0.000300
+2020-04-23 23:00:04,016 Epoch  24 Step:    18700 Batch Loss:     2.312243 Tokens per Sec:    16622, Lr: 0.000300
+2020-04-23 23:00:13,800 Epoch  24: total training loss 1774.92
+2020-04-23 23:00:13,800 EPOCH 25
+2020-04-23 23:00:18,759 Epoch  25 Step:    18800 Batch Loss:     2.148660 Tokens per Sec:    16432, Lr: 0.000300
+2020-04-23 23:00:33,295 Epoch  25 Step:    18900 Batch Loss:     2.188258 Tokens per Sec:    16615, Lr: 0.000300
+2020-04-23 23:00:47,712 Epoch  25 Step:    19000 Batch Loss:     2.804485 Tokens per Sec:    16653, Lr: 0.000300
+2020-04-23 23:01:14,315 Hooray! New best validation result [ppl]!
+2020-04-23 23:01:14,315 Saving new checkpoint.
+2020-04-23 23:01:14,495 Example #0
+2020-04-23 23:01:14,495 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 23:01:14,495 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 23:01:14,495 	Source:     span
+2020-04-23 23:01:14,495 	Reference:  shibiri
+2020-04-23 23:01:14,495 	Hypothesis: kikombe
+2020-04-23 23:01:14,495 Example #1
+2020-04-23 23:01:14,495 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 23:01:14,495 	Raw hypothesis: ['m@@', 'simamizi']
+2020-04-23 23:01:14,495 	Source:     administer
+2020-04-23 23:01:14,495 	Reference:  amuru
+2020-04-23 23:01:14,495 	Hypothesis: msimamizi
+2020-04-23 23:01:14,495 Example #2
+2020-04-23 23:01:14,496 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 23:01:14,496 	Raw hypothesis: ['Basi', 'kwa', 'S@@', 'ha@@', 'mu@@', 'di', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'iliyo', 'chun@@', 'gu.']
+2020-04-23 23:01:14,496 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 23:01:14,496 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 23:01:14,496 	Hypothesis: Basi kwa Shamudi waliangamizwa kwa adhabu iliyo chungu.
+2020-04-23 23:01:14,496 Example #3
+2020-04-23 23:01:14,496 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 23:01:14,496 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 23:01:14,496 	Source:     You do not believe but say,
+2020-04-23 23:01:14,496 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 23:01:14,496 	Hypothesis: Hauamini ila husema:
+2020-04-23 23:01:14,496 Validation result (greedy) at epoch  25, step    19000: bleu:  13.88, loss: 44029.9844, ppl:   8.1455, duration: 26.7836s
+2020-04-23 23:01:28,977 Epoch  25 Step:    19100 Batch Loss:     2.091301 Tokens per Sec:    16603, Lr: 0.000300
+2020-04-23 23:01:43,484 Epoch  25 Step:    19200 Batch Loss:     2.104844 Tokens per Sec:    16817, Lr: 0.000300
+2020-04-23 23:01:58,014 Epoch  25 Step:    19300 Batch Loss:     2.082567 Tokens per Sec:    16598, Lr: 0.000300
+2020-04-23 23:02:12,661 Epoch  25 Step:    19400 Batch Loss:     2.302405 Tokens per Sec:    16671, Lr: 0.000300
+2020-04-23 23:02:27,156 Epoch  25 Step:    19500 Batch Loss:     2.238170 Tokens per Sec:    16693, Lr: 0.000300
+2020-04-23 23:02:33,857 Epoch  25: total training loss 1757.56
+2020-04-23 23:02:33,857 EPOCH 26
+2020-04-23 23:02:41,812 Epoch  26 Step:    19600 Batch Loss:     2.216417 Tokens per Sec:    16864, Lr: 0.000300
+2020-04-23 23:02:56,273 Epoch  26 Step:    19700 Batch Loss:     2.042866 Tokens per Sec:    16608, Lr: 0.000300
+2020-04-23 23:03:10,769 Epoch  26 Step:    19800 Batch Loss:     2.042612 Tokens per Sec:    16607, Lr: 0.000300
+2020-04-23 23:03:25,219 Epoch  26 Step:    19900 Batch Loss:     2.013043 Tokens per Sec:    16748, Lr: 0.000300
+2020-04-23 23:03:39,628 Epoch  26 Step:    20000 Batch Loss:     2.140165 Tokens per Sec:    16653, Lr: 0.000300
+2020-04-23 23:04:05,617 Hooray! New best validation result [ppl]!
+2020-04-23 23:04:05,618 Saving new checkpoint.
+2020-04-23 23:04:05,795 Example #0
+2020-04-23 23:04:05,795 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 23:04:05,795 	Raw hypothesis: ['ki@@', 'ko@@', 'mbe']
+2020-04-23 23:04:05,795 	Source:     span
+2020-04-23 23:04:05,796 	Reference:  shibiri
+2020-04-23 23:04:05,796 	Hypothesis: kikombe
+2020-04-23 23:04:05,796 Example #1
+2020-04-23 23:04:05,796 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 23:04:05,796 	Raw hypothesis: ['m@@', 'sta@@', 'ri']
+2020-04-23 23:04:05,796 	Source:     administer
+2020-04-23 23:04:05,796 	Reference:  amuru
+2020-04-23 23:04:05,796 	Hypothesis: mstari
+2020-04-23 23:04:05,796 Example #2
+2020-04-23 23:04:05,796 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 23:04:05,796 	Raw hypothesis: ['Na', 'kama', 'S@@', 'ha@@', 'mu@@', 'di', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'ku@@', 'du@@', 'mu', 'adhabu', 'chun@@', 'gu.']
+2020-04-23 23:04:05,796 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 23:04:05,796 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 23:04:05,796 	Hypothesis: Na kama Shamudi waliangamizwa kwa adhabu ya kudumu adhabu chungu.
+2020-04-23 23:04:05,796 Example #3
+2020-04-23 23:04:05,796 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 23:04:05,796 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 23:04:05,796 	Source:     You do not believe but say,
+2020-04-23 23:04:05,797 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 23:04:05,797 	Hypothesis: Hauamini ila husema:
+2020-04-23 23:04:05,797 Validation result (greedy) at epoch  26, step    20000: bleu:  14.34, loss: 43467.5586, ppl:   7.9302, duration: 26.1682s
+2020-04-23 23:04:20,338 Epoch  26 Step:    20100 Batch Loss:     2.340356 Tokens per Sec:    16596, Lr: 0.000300
+2020-04-23 23:04:34,890 Epoch  26 Step:    20200 Batch Loss:     2.132986 Tokens per Sec:    16721, Lr: 0.000300
+2020-04-23 23:04:49,308 Epoch  26 Step:    20300 Batch Loss:     2.111017 Tokens per Sec:    16487, Lr: 0.000300
+2020-04-23 23:04:53,139 Epoch  26: total training loss 1734.92
+2020-04-23 23:04:53,140 EPOCH 27
+2020-04-23 23:05:04,036 Epoch  27 Step:    20400 Batch Loss:     2.487979 Tokens per Sec:    16384, Lr: 0.000300
+2020-04-23 23:05:18,549 Epoch  27 Step:    20500 Batch Loss:     2.268808 Tokens per Sec:    16695, Lr: 0.000300
+2020-04-23 23:05:33,129 Epoch  27 Step:    20600 Batch Loss:     2.303560 Tokens per Sec:    16824, Lr: 0.000300
+2020-04-23 23:05:47,561 Epoch  27 Step:    20700 Batch Loss:     2.133076 Tokens per Sec:    16768, Lr: 0.000300
+2020-04-23 23:06:02,206 Epoch  27 Step:    20800 Batch Loss:     2.735285 Tokens per Sec:    16849, Lr: 0.000300
+2020-04-23 23:06:16,757 Epoch  27 Step:    20900 Batch Loss:     2.033327 Tokens per Sec:    16739, Lr: 0.000300
+2020-04-23 23:06:31,210 Epoch  27 Step:    21000 Batch Loss:     2.575073 Tokens per Sec:    16419, Lr: 0.000300
+2020-04-23 23:06:58,049 Hooray! New best validation result [ppl]!
+2020-04-23 23:06:58,049 Saving new checkpoint.
+2020-04-23 23:06:58,228 Example #0
+2020-04-23 23:06:58,228 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 23:06:58,228 	Raw hypothesis: ['ki@@', 'p@@', 'ambi@@', 'zi']
+2020-04-23 23:06:58,228 	Source:     span
+2020-04-23 23:06:58,228 	Reference:  shibiri
+2020-04-23 23:06:58,229 	Hypothesis: kipambizi
+2020-04-23 23:06:58,229 Example #1
+2020-04-23 23:06:58,229 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 23:06:58,229 	Raw hypothesis: ['u@@', 'simamizi']
+2020-04-23 23:06:58,229 	Source:     administer
+2020-04-23 23:06:58,229 	Reference:  amuru
+2020-04-23 23:06:58,229 	Hypothesis: usimamizi
+2020-04-23 23:06:58,229 Example #2
+2020-04-23 23:06:58,229 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 23:06:58,229 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'angami@@', 'zwa', 'kwa', 'Ha@@', 'ki', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'ku@@', 'du@@', 'mu.']
+2020-04-23 23:06:58,229 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 23:06:58,229 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 23:06:58,229 	Hypothesis: Basi walipo angamizwa kwa Haki waliangamizwa kwa adhabu ya kudumu.
+2020-04-23 23:06:58,229 Example #3
+2020-04-23 23:06:58,229 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 23:06:58,229 	Raw hypothesis: ['Ham@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 23:06:58,230 	Source:     You do not believe but say,
+2020-04-23 23:06:58,230 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 23:06:58,230 	Hypothesis: Hamamini ila husema:
+2020-04-23 23:06:58,230 Validation result (greedy) at epoch  27, step    21000: bleu:  14.32, loss: 42797.8086, ppl:   7.6811, duration: 27.0188s
+2020-04-23 23:07:12,565 Epoch  27 Step:    21100 Batch Loss:     2.206257 Tokens per Sec:    16247, Lr: 0.000300
+2020-04-23 23:07:13,443 Epoch  27: total training loss 1718.35
+2020-04-23 23:07:13,443 EPOCH 28
+2020-04-23 23:07:27,210 Epoch  28 Step:    21200 Batch Loss:     2.034484 Tokens per Sec:    16544, Lr: 0.000300
+2020-04-23 23:07:41,783 Epoch  28 Step:    21300 Batch Loss:     2.150079 Tokens per Sec:    16399, Lr: 0.000300
+2020-04-23 23:07:56,475 Epoch  28 Step:    21400 Batch Loss:     2.293908 Tokens per Sec:    16973, Lr: 0.000300
+2020-04-23 23:08:11,034 Epoch  28 Step:    21500 Batch Loss:     2.262740 Tokens per Sec:    16510, Lr: 0.000300
+2020-04-23 23:08:25,702 Epoch  28 Step:    21600 Batch Loss:     2.062630 Tokens per Sec:    16717, Lr: 0.000300
+2020-04-23 23:08:40,285 Epoch  28 Step:    21700 Batch Loss:     2.334095 Tokens per Sec:    16469, Lr: 0.000300
+2020-04-23 23:08:54,749 Epoch  28 Step:    21800 Batch Loss:     1.952248 Tokens per Sec:    16551, Lr: 0.000300
+2020-04-23 23:09:06,946 Epoch  28: total training loss 1702.11
+2020-04-23 23:09:06,946 EPOCH 29
+2020-04-23 23:09:09,422 Epoch  29 Step:    21900 Batch Loss:     2.674916 Tokens per Sec:    15904, Lr: 0.000300
+2020-04-23 23:09:23,673 Epoch  29 Step:    22000 Batch Loss:     2.251612 Tokens per Sec:    16397, Lr: 0.000300
+2020-04-23 23:09:53,294 Hooray! New best validation result [ppl]!
+2020-04-23 23:09:53,294 Saving new checkpoint.
+2020-04-23 23:09:53,480 Example #0
+2020-04-23 23:09:53,480 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 23:09:53,480 	Raw hypothesis: ['ki@@', 'p@@', 'wani']
+2020-04-23 23:09:53,480 	Source:     span
+2020-04-23 23:09:53,480 	Reference:  shibiri
+2020-04-23 23:09:53,480 	Hypothesis: kipwani
+2020-04-23 23:09:53,481 Example #1
+2020-04-23 23:09:53,481 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 23:09:53,481 	Raw hypothesis: ['m@@', 'da@@', 'wa']
+2020-04-23 23:09:53,481 	Source:     administer
+2020-04-23 23:09:53,481 	Reference:  amuru
+2020-04-23 23:09:53,481 	Hypothesis: mdawa
+2020-04-23 23:09:53,481 Example #2
+2020-04-23 23:09:53,481 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 23:09:53,481 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'angami@@', 'zwa', 'kwa', 'S@@', 'ha@@', 'mu@@', 'di', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'ku@@', 'du@@', 'mu', 'adhabu', 'ka@@', 'li.']
+2020-04-23 23:09:53,481 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 23:09:53,481 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 23:09:53,481 	Hypothesis: Basi walipo angamizwa kwa Shamudi waliangamizwa kwa adhabu ya kudumu adhabu kali.
+2020-04-23 23:09:53,481 Example #3
+2020-04-23 23:09:53,481 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 23:09:53,481 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 23:09:53,481 	Source:     You do not believe but say,
+2020-04-23 23:09:53,481 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 23:09:53,481 	Hypothesis: Hauamini ila husema:
+2020-04-23 23:09:53,482 Validation result (greedy) at epoch  29, step    22000: bleu:  14.68, loss: 42596.0469, ppl:   7.6077, duration: 29.8080s
+2020-04-23 23:10:07,971 Epoch  29 Step:    22100 Batch Loss:     2.003094 Tokens per Sec:    16558, Lr: 0.000300
+2020-04-23 23:10:22,307 Epoch  29 Step:    22200 Batch Loss:     2.184560 Tokens per Sec:    16531, Lr: 0.000300
+2020-04-23 23:10:36,912 Epoch  29 Step:    22300 Batch Loss:     2.463721 Tokens per Sec:    16552, Lr: 0.000300
+2020-04-23 23:10:51,446 Epoch  29 Step:    22400 Batch Loss:     2.145364 Tokens per Sec:    16865, Lr: 0.000300
+2020-04-23 23:11:05,798 Epoch  29 Step:    22500 Batch Loss:     2.287599 Tokens per Sec:    16605, Lr: 0.000300
+2020-04-23 23:11:20,231 Epoch  29 Step:    22600 Batch Loss:     2.072596 Tokens per Sec:    16695, Lr: 0.000300
+2020-04-23 23:11:30,196 Epoch  29: total training loss 1699.23
+2020-04-23 23:11:30,197 EPOCH 30
+2020-04-23 23:11:34,956 Epoch  30 Step:    22700 Batch Loss:     1.953430 Tokens per Sec:    16315, Lr: 0.000300
+2020-04-23 23:11:49,298 Epoch  30 Step:    22800 Batch Loss:     1.949152 Tokens per Sec:    16591, Lr: 0.000300
+2020-04-23 23:12:03,783 Epoch  30 Step:    22900 Batch Loss:     2.170377 Tokens per Sec:    16817, Lr: 0.000300
+2020-04-23 23:12:18,038 Epoch  30 Step:    23000 Batch Loss:     2.233912 Tokens per Sec:    16550, Lr: 0.000300
+2020-04-23 23:12:44,373 Hooray! New best validation result [ppl]!
+2020-04-23 23:12:44,373 Saving new checkpoint.
+2020-04-23 23:12:44,549 Example #0
+2020-04-23 23:12:44,550 	Raw source:     ['s@@', 'pa@@', 'n']
+2020-04-23 23:12:44,550 	Raw hypothesis: ['ki@@', 'p@@', 'ing@@', 'o']
+2020-04-23 23:12:44,550 	Source:     span
+2020-04-23 23:12:44,550 	Reference:  shibiri
+2020-04-23 23:12:44,550 	Hypothesis: kipingo
+2020-04-23 23:12:44,550 Example #1
+2020-04-23 23:12:44,550 	Raw source:     ['ad@@', 'mini@@', 'ster']
+2020-04-23 23:12:44,550 	Raw hypothesis: ['m@@', 'simamizi']
+2020-04-23 23:12:44,550 	Source:     administer
+2020-04-23 23:12:44,550 	Reference:  amuru
+2020-04-23 23:12:44,550 	Hypothesis: msimamizi
+2020-04-23 23:12:44,550 Example #2
+2020-04-23 23:12:44,550 	Raw source:     ['Then', 'as', 'to', 'S@@', 'amo@@', 'o@@', 'd,', 'they', 'were', 'destro@@', 'yed', 'by', 'an', 'ex@@', 'ces@@', 'si@@', 've@@', 'ly', 'se@@', 'ver@@', 'e', 'punish@@', 'ment.']
+2020-04-23 23:12:44,550 	Raw hypothesis: ['Basi', 'wali@@', 'po', 'angami@@', 'zwa', 'kwa', 'Ha@@', 'ki', 'wali@@', 'angami@@', 'zwa', 'kwa', 'adhabu', 'ya', 'Mo@@', 'to', 'ulio', 'dha@@', 'a@@', 'hi@@', 'ri.']
+2020-04-23 23:12:44,550 	Source:     Then as to Samood, they were destroyed by an excessively severe punishment.
+2020-04-23 23:12:44,550 	Reference:  Basi Thamudi waliangamizwa kwa balaa kubwa mno.
+2020-04-23 23:12:44,551 	Hypothesis: Basi walipo angamizwa kwa Haki waliangamizwa kwa adhabu ya Moto ulio dhaahiri.
+2020-04-23 23:12:44,551 Example #3
+2020-04-23 23:12:44,551 	Raw source:     ['You', 'do', 'not', 'believe', 'but', 'say,']
+2020-04-23 23:12:44,551 	Raw hypothesis: ['Ha@@', 'u@@', 'amini', 'ila', 'hu@@', 'sema:']
+2020-04-23 23:12:44,551 	Source:     You do not believe but say,
+2020-04-23 23:12:44,551 	Reference:  Hamjaamini, lakini semeni:
+2020-04-23 23:12:44,551 	Hypothesis: Hauamini ila husema:
+2020-04-23 23:12:44,551 Validation result (greedy) at epoch  30, step    23000: bleu:  15.61, loss: 42209.5742, ppl:   7.4689, duration: 26.5120s
+2020-04-23 23:12:59,089 Epoch  30 Step:    23100 Batch Loss:     2.647570 Tokens per Sec:    16446, Lr: 0.000300
+2020-04-23 23:13:13,662 Epoch  30 Step:    23200 Batch Loss:     2.180224 Tokens per Sec:    16860, Lr: 0.000300
+2020-04-23 23:13:28,137 Epoch  30 Step:    23300 Batch Loss:     2.112861 Tokens per Sec:    16474, Lr: 0.000300
+2020-04-23 23:13:42,518 Epoch  30 Step:    23400 Batch Loss:     2.192046 Tokens per Sec:    16882, Lr: 0.000300
+2020-04-23 23:13:49,708 Epoch  30: total training loss 1676.35
+2020-04-23 23:13:49,708 Training ended after  30 epochs.
+2020-04-23 23:13:49,708 Best validation result (greedy) at step    23000:   7.47 ppl.
+2020-04-23 23:14:12,660  dev bleu:  15.00 [Beam search decoding with beam size = 5 and alpha = 1.0]
+2020-04-23 23:14:12,661 Translations saved to: models/ensw_transformer/00023000.hyps.dev
+2020-04-23 23:15:04,105 test bleu:   3.60 [Beam search decoding with beam size = 5 and alpha = 1.0]
+2020-04-23 23:15:04,107 Translations saved to: models/ensw_transformer/00023000.hyps.test
